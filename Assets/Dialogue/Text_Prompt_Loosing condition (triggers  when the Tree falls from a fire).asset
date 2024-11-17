@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de0c34df146ad7f49854eff612f19602, type: 3}
+  m_Name: Text_Prompt_Loosing condition (triggers  when the Tree falls from a fire)
+  m_EditorClassIdentifier: 
+  m_localization:
+  - m_key: 2
+    m_lines:
+    - 'The Great Tree is on fire... We lost this battle... '
+    - 'The fire on the Great Tree! Today is the darkest day in our reserve! '
+    - 'The Great Tree is on fire! I declare for a total evacuation of the island! '
+  - m_key: 1
+    m_lines:
+    - "Urtr\xE4det brinner...Vi f\xF6rlorade denna kamp..."
+    - "Elden \xE4r p\xE5 Urtr\xE4det! Idag \xE4r den m\xF6rkaste dagen i v\xE5rt
+      reservats historia."
+    - "Urtr\xE4det brinner! Jag utlyser en total evakuering av \xF6n!"

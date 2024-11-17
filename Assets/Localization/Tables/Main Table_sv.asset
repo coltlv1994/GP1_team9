@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Main Table_sv
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: sv
+  m_SharedData: {fileID: 11400000, guid: 3b0980cddd959394d830ff6df6ff6958, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 56627499008
+    m_Localized: Starta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4065820086272
+    m_Localized: "Inst\xE4llningar"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4357114499072
+    m_Localized: Avsluta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4628595019776
+    m_Localized: "Spr\xE5k"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5342482337792
+    m_Localized: "Helsk\xE4rm"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5788328464384
+    m_Localized: "H\xF6g Kontrast"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6086635753472
+    m_Localized: Ljusstyrka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6576698232832
+    m_Localized: Ljud
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6805682065408
+    m_Localized: Musik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7049845084160
+    m_Localized: "R\xF6st"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7821584437248
+    m_Localized: Undertexter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8062756917248
+    m_Localized: Tillbaks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1824561075261440
+    m_Localized: "Forts\xE4tt"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1824748908777472
+    m_Localized: Starta Om
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1825122344439808
+    m_Localized: "G\xE5 Till Menyn"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2142000305504256
+    m_Localized: Menystorlek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2212251406897152
+    m_Localized: "F\xE4rgblinds L\xE4ge"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

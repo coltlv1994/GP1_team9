@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de0c34df146ad7f49854eff612f19602, type: 3}
+  m_Name: IntroMovement
+  m_EditorClassIdentifier: 
+  m_localization:
+  - m_key: 0
+    m_lines:
+    - 'Hi! My name is Joe Smokey! And I am the chief ranger here, at the Great Tree
+      Nature Reserve!  '
+    - We really need help! This summer has been incredibly hot. And now Reserve is
+      facing a serious fire danger. If you don't act now, it could be really devastating.
+    - The helicopter will just keep the altitude automatically, but you still need
+      to avoid obstacles along the way! Use the JOYSTICK to steer around them.
+  - m_key: 1
+    m_lines:
+    - "Hej! Mitt namn \xE4r Ragnar R\xF6k! Och jag \xE4r chefsvakt h\xE4r p\xE5 Urtr\xE4dets
+      naturreservat! "
+    - "Vi beh\xF6ver verkligen hj\xE4lp! Den h\xE4r sommaren har varit v\xE4ldigt
+      varm. Nu \xE4r reservatet i brandfara. Om vi inte g\xF6r n\xE5got nu kan det
+      f\xE5 dyra konsekvenser."
+    - "Helikoptern h\xE5ller h\xF6jden automatiskt, men du m\xE5ste fortfarande undvika
+      hinder! Anv\xE4nd JOYSTICKEN f\xF6r att styra runt dom."
+  m_audio:
+  - {fileID: 8300000, guid: c3a8311d2370d3a4fa06db2df5b47df0, type: 3}
+  - {fileID: 8300000, guid: 13b4568002bf7bc41ae4da778a3749fa, type: 3}
+  - {fileID: 8300000, guid: 7f248910d6119de439a9bf61e0ab9c31, type: 3}

@@ -1,0 +1,6536 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 10
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 1
+    m_PVRFilteringGaussRadiusAO: 1
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &159299221
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 159299222}
+  - component: {fileID: 159299223}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &159299222
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159299221}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &159299223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159299221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 195b84fe20b89394792f4cbe92047190, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_gridSize: {x: 32, y: 32}
+  m_cellSize: {x: 5, y: 5}
+  debug_grid: 0
+  m_tiles:
+  - m_tileType: 0
+    m_worldPosition: {x: 2.5, y: 0, z: 2.5}
+    m_gridPosition: {x: 0, y: 0}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 7.5, y: 0, z: 2.5}
+    m_gridPosition: {x: 1, y: 0}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 12.5, y: 0, z: 2.5}
+    m_gridPosition: {x: 2, y: 0}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 17.5, y: 0, z: 2.5}
+    m_gridPosition: {x: 3, y: 0}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 22.5, y: 0, z: 2.5}
+    m_gridPosition: {x: 4, y: 0}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 27.5, y: 0, z: 2.5}
+    m_gridPosition: {x: 5, y: 0}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 32.5, y: 0, z: 2.5}
+    m_gridPosition: {x: 6, y: 0}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 37.5, y: 0, z: 2.5}
+    m_gridPosition: {x: 7, y: 0}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 42.5, y: 0, z: 2.5}
+    m_gridPosition: {x: 8, y: 0}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 47.5, y: 0, z: 2.5}
+    m_gridPosition: {x: 9, y: 0}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 52.5, y: 0, z: 2.5}
+    m_gridPosition: {x: 10, y: 0}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 57.5, y: 0, z: 2.5}
+    m_gridPosition: {x: 11, y: 0}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 62.5, y: 0, z: 2.5}
+    m_gridPosition: {x: 12, y: 0}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 67.5, y: 0, z: 2.5}
+    m_gridPosition: {x: 13, y: 0}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 72.5, y: 0, z: 2.5}
+    m_gridPosition: {x: 14, y: 0}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 77.5, y: 0, z: 2.5}
+    m_gridPosition: {x: 15, y: 0}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 82.5, y: 0, z: 2.5}
+    m_gridPosition: {x: 16, y: 0}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 87.5, y: 0, z: 2.5}
+    m_gridPosition: {x: 17, y: 0}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 92.5, y: 0, z: 2.5}
+    m_gridPosition: {x: 18, y: 0}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 97.5, y: 0, z: 2.5}
+    m_gridPosition: {x: 19, y: 0}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 102.5, y: 0, z: 2.5}
+    m_gridPosition: {x: 20, y: 0}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 107.5, y: 0, z: 2.5}
+    m_gridPosition: {x: 21, y: 0}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 112.5, y: 0, z: 2.5}
+    m_gridPosition: {x: 22, y: 0}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 117.5, y: 0, z: 2.5}
+    m_gridPosition: {x: 23, y: 0}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 122.5, y: 0, z: 2.5}
+    m_gridPosition: {x: 24, y: 0}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 127.5, y: 0, z: 2.5}
+    m_gridPosition: {x: 25, y: 0}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 132.5, y: 0, z: 2.5}
+    m_gridPosition: {x: 26, y: 0}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 137.5, y: 0, z: 2.5}
+    m_gridPosition: {x: 27, y: 0}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 142.5, y: 0, z: 2.5}
+    m_gridPosition: {x: 28, y: 0}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 147.5, y: 0, z: 2.5}
+    m_gridPosition: {x: 29, y: 0}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 152.5, y: 0, z: 2.5}
+    m_gridPosition: {x: 30, y: 0}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 157.5, y: 0, z: 2.5}
+    m_gridPosition: {x: 31, y: 0}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 2.5, y: 0, z: 7.5}
+    m_gridPosition: {x: 0, y: 1}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 7.5, y: 0, z: 7.5}
+    m_gridPosition: {x: 1, y: 1}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 12.5, y: 0, z: 7.5}
+    m_gridPosition: {x: 2, y: 1}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 17.5, y: 0, z: 7.5}
+    m_gridPosition: {x: 3, y: 1}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 22.5, y: 0, z: 7.5}
+    m_gridPosition: {x: 4, y: 1}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 27.5, y: 0, z: 7.5}
+    m_gridPosition: {x: 5, y: 1}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 32.5, y: 0, z: 7.5}
+    m_gridPosition: {x: 6, y: 1}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 37.5, y: 0, z: 7.5}
+    m_gridPosition: {x: 7, y: 1}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 42.5, y: 0, z: 7.5}
+    m_gridPosition: {x: 8, y: 1}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 47.5, y: 0, z: 7.5}
+    m_gridPosition: {x: 9, y: 1}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 52.5, y: 0, z: 7.5}
+    m_gridPosition: {x: 10, y: 1}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 57.5, y: 0, z: 7.5}
+    m_gridPosition: {x: 11, y: 1}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 62.5, y: 0, z: 7.5}
+    m_gridPosition: {x: 12, y: 1}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 67.5, y: 0, z: 7.5}
+    m_gridPosition: {x: 13, y: 1}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 72.5, y: 0, z: 7.5}
+    m_gridPosition: {x: 14, y: 1}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 77.5, y: 0, z: 7.5}
+    m_gridPosition: {x: 15, y: 1}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 82.5, y: 0, z: 7.5}
+    m_gridPosition: {x: 16, y: 1}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 87.5, y: 0, z: 7.5}
+    m_gridPosition: {x: 17, y: 1}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 92.5, y: 0, z: 7.5}
+    m_gridPosition: {x: 18, y: 1}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 97.5, y: 0, z: 7.5}
+    m_gridPosition: {x: 19, y: 1}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 102.5, y: 0, z: 7.5}
+    m_gridPosition: {x: 20, y: 1}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 107.5, y: 0, z: 7.5}
+    m_gridPosition: {x: 21, y: 1}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 112.5, y: 0, z: 7.5}
+    m_gridPosition: {x: 22, y: 1}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 117.5, y: 0, z: 7.5}
+    m_gridPosition: {x: 23, y: 1}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 122.5, y: 0, z: 7.5}
+    m_gridPosition: {x: 24, y: 1}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 127.5, y: 0, z: 7.5}
+    m_gridPosition: {x: 25, y: 1}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 132.5, y: 0, z: 7.5}
+    m_gridPosition: {x: 26, y: 1}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 137.5, y: 0, z: 7.5}
+    m_gridPosition: {x: 27, y: 1}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 142.5, y: 0, z: 7.5}
+    m_gridPosition: {x: 28, y: 1}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 147.5, y: 0, z: 7.5}
+    m_gridPosition: {x: 29, y: 1}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 152.5, y: 0, z: 7.5}
+    m_gridPosition: {x: 30, y: 1}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 157.5, y: 0, z: 7.5}
+    m_gridPosition: {x: 31, y: 1}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 2.5, y: 0, z: 12.5}
+    m_gridPosition: {x: 0, y: 2}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 7.5, y: 0, z: 12.5}
+    m_gridPosition: {x: 1, y: 2}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 12.5, y: 0, z: 12.5}
+    m_gridPosition: {x: 2, y: 2}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 17.5, y: 0, z: 12.5}
+    m_gridPosition: {x: 3, y: 2}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 22.5, y: 0, z: 12.5}
+    m_gridPosition: {x: 4, y: 2}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 27.5, y: 0, z: 12.5}
+    m_gridPosition: {x: 5, y: 2}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 32.5, y: 0, z: 12.5}
+    m_gridPosition: {x: 6, y: 2}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 37.5, y: 0, z: 12.5}
+    m_gridPosition: {x: 7, y: 2}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 42.5, y: 0, z: 12.5}
+    m_gridPosition: {x: 8, y: 2}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 47.5, y: 0, z: 12.5}
+    m_gridPosition: {x: 9, y: 2}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 52.5, y: 0, z: 12.5}
+    m_gridPosition: {x: 10, y: 2}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 57.5, y: 0, z: 12.5}
+    m_gridPosition: {x: 11, y: 2}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 62.5, y: 0, z: 12.5}
+    m_gridPosition: {x: 12, y: 2}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 67.5, y: 0, z: 12.5}
+    m_gridPosition: {x: 13, y: 2}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 72.5, y: 0, z: 12.5}
+    m_gridPosition: {x: 14, y: 2}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 77.5, y: 0, z: 12.5}
+    m_gridPosition: {x: 15, y: 2}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 82.5, y: 0, z: 12.5}
+    m_gridPosition: {x: 16, y: 2}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 87.5, y: 0, z: 12.5}
+    m_gridPosition: {x: 17, y: 2}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 92.5, y: 0, z: 12.5}
+    m_gridPosition: {x: 18, y: 2}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 97.5, y: 0, z: 12.5}
+    m_gridPosition: {x: 19, y: 2}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 102.5, y: 0, z: 12.5}
+    m_gridPosition: {x: 20, y: 2}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 107.5, y: 0, z: 12.5}
+    m_gridPosition: {x: 21, y: 2}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 112.5, y: 0, z: 12.5}
+    m_gridPosition: {x: 22, y: 2}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 117.5, y: 0, z: 12.5}
+    m_gridPosition: {x: 23, y: 2}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 122.5, y: 0, z: 12.5}
+    m_gridPosition: {x: 24, y: 2}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 127.5, y: 0, z: 12.5}
+    m_gridPosition: {x: 25, y: 2}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 132.5, y: 0, z: 12.5}
+    m_gridPosition: {x: 26, y: 2}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 137.5, y: 0, z: 12.5}
+    m_gridPosition: {x: 27, y: 2}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 142.5, y: 0, z: 12.5}
+    m_gridPosition: {x: 28, y: 2}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 147.5, y: 0, z: 12.5}
+    m_gridPosition: {x: 29, y: 2}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 152.5, y: 0, z: 12.5}
+    m_gridPosition: {x: 30, y: 2}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 157.5, y: 0, z: 12.5}
+    m_gridPosition: {x: 31, y: 2}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 2.5, y: 0, z: 17.5}
+    m_gridPosition: {x: 0, y: 3}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 7.5, y: 0, z: 17.5}
+    m_gridPosition: {x: 1, y: 3}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 12.5, y: 0, z: 17.5}
+    m_gridPosition: {x: 2, y: 3}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 17.5, y: 0, z: 17.5}
+    m_gridPosition: {x: 3, y: 3}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 22.5, y: 0, z: 17.5}
+    m_gridPosition: {x: 4, y: 3}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 27.5, y: 0, z: 17.5}
+    m_gridPosition: {x: 5, y: 3}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 32.5, y: 0, z: 17.5}
+    m_gridPosition: {x: 6, y: 3}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 37.5, y: 0, z: 17.5}
+    m_gridPosition: {x: 7, y: 3}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 42.5, y: 0, z: 17.5}
+    m_gridPosition: {x: 8, y: 3}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 47.5, y: 0, z: 17.5}
+    m_gridPosition: {x: 9, y: 3}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 52.5, y: 0, z: 17.5}
+    m_gridPosition: {x: 10, y: 3}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 57.5, y: 0, z: 17.5}
+    m_gridPosition: {x: 11, y: 3}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 62.5, y: 0, z: 17.5}
+    m_gridPosition: {x: 12, y: 3}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 67.5, y: 0, z: 17.5}
+    m_gridPosition: {x: 13, y: 3}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 72.5, y: 0, z: 17.5}
+    m_gridPosition: {x: 14, y: 3}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 77.5, y: 0, z: 17.5}
+    m_gridPosition: {x: 15, y: 3}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 82.5, y: 0, z: 17.5}
+    m_gridPosition: {x: 16, y: 3}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 87.5, y: 0, z: 17.5}
+    m_gridPosition: {x: 17, y: 3}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 92.5, y: 0, z: 17.5}
+    m_gridPosition: {x: 18, y: 3}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 97.5, y: 0, z: 17.5}
+    m_gridPosition: {x: 19, y: 3}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 102.5, y: 0, z: 17.5}
+    m_gridPosition: {x: 20, y: 3}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 107.5, y: 0, z: 17.5}
+    m_gridPosition: {x: 21, y: 3}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 112.5, y: 0, z: 17.5}
+    m_gridPosition: {x: 22, y: 3}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 117.5, y: 0, z: 17.5}
+    m_gridPosition: {x: 23, y: 3}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 122.5, y: 0, z: 17.5}
+    m_gridPosition: {x: 24, y: 3}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 127.5, y: 0, z: 17.5}
+    m_gridPosition: {x: 25, y: 3}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 132.5, y: 0, z: 17.5}
+    m_gridPosition: {x: 26, y: 3}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 137.5, y: 0, z: 17.5}
+    m_gridPosition: {x: 27, y: 3}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 142.5, y: 0, z: 17.5}
+    m_gridPosition: {x: 28, y: 3}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 147.5, y: 0, z: 17.5}
+    m_gridPosition: {x: 29, y: 3}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 152.5, y: 0, z: 17.5}
+    m_gridPosition: {x: 30, y: 3}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 157.5, y: 0, z: 17.5}
+    m_gridPosition: {x: 31, y: 3}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 2.5, y: 0, z: 22.5}
+    m_gridPosition: {x: 0, y: 4}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 7.5, y: 0, z: 22.5}
+    m_gridPosition: {x: 1, y: 4}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 12.5, y: 0, z: 22.5}
+    m_gridPosition: {x: 2, y: 4}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 17.5, y: 0, z: 22.5}
+    m_gridPosition: {x: 3, y: 4}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 22.5, y: 0, z: 22.5}
+    m_gridPosition: {x: 4, y: 4}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 27.5, y: 0, z: 22.5}
+    m_gridPosition: {x: 5, y: 4}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 32.5, y: 0, z: 22.5}
+    m_gridPosition: {x: 6, y: 4}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 37.5, y: 0, z: 22.5}
+    m_gridPosition: {x: 7, y: 4}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 42.5, y: 0, z: 22.5}
+    m_gridPosition: {x: 8, y: 4}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 47.5, y: 0, z: 22.5}
+    m_gridPosition: {x: 9, y: 4}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 52.5, y: 0, z: 22.5}
+    m_gridPosition: {x: 10, y: 4}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 57.5, y: 0, z: 22.5}
+    m_gridPosition: {x: 11, y: 4}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 62.5, y: 0, z: 22.5}
+    m_gridPosition: {x: 12, y: 4}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 67.5, y: 0, z: 22.5}
+    m_gridPosition: {x: 13, y: 4}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 72.5, y: 0, z: 22.5}
+    m_gridPosition: {x: 14, y: 4}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 77.5, y: 0, z: 22.5}
+    m_gridPosition: {x: 15, y: 4}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 82.5, y: 0, z: 22.5}
+    m_gridPosition: {x: 16, y: 4}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 87.5, y: 0, z: 22.5}
+    m_gridPosition: {x: 17, y: 4}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 92.5, y: 0, z: 22.5}
+    m_gridPosition: {x: 18, y: 4}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 97.5, y: 0, z: 22.5}
+    m_gridPosition: {x: 19, y: 4}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 102.5, y: 0, z: 22.5}
+    m_gridPosition: {x: 20, y: 4}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 107.5, y: 0, z: 22.5}
+    m_gridPosition: {x: 21, y: 4}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 112.5, y: 0, z: 22.5}
+    m_gridPosition: {x: 22, y: 4}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 117.5, y: 0, z: 22.5}
+    m_gridPosition: {x: 23, y: 4}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 122.5, y: 0, z: 22.5}
+    m_gridPosition: {x: 24, y: 4}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 127.5, y: 0, z: 22.5}
+    m_gridPosition: {x: 25, y: 4}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 132.5, y: 0, z: 22.5}
+    m_gridPosition: {x: 26, y: 4}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 137.5, y: 0, z: 22.5}
+    m_gridPosition: {x: 27, y: 4}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 142.5, y: 0, z: 22.5}
+    m_gridPosition: {x: 28, y: 4}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 147.5, y: 0, z: 22.5}
+    m_gridPosition: {x: 29, y: 4}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 152.5, y: 0, z: 22.5}
+    m_gridPosition: {x: 30, y: 4}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 157.5, y: 0, z: 22.5}
+    m_gridPosition: {x: 31, y: 4}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 2.5, y: 0, z: 27.5}
+    m_gridPosition: {x: 0, y: 5}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 7.5, y: 0, z: 27.5}
+    m_gridPosition: {x: 1, y: 5}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 12.5, y: 0, z: 27.5}
+    m_gridPosition: {x: 2, y: 5}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 17.5, y: 0, z: 27.5}
+    m_gridPosition: {x: 3, y: 5}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 22.5, y: 0, z: 27.5}
+    m_gridPosition: {x: 4, y: 5}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 27.5, y: 0, z: 27.5}
+    m_gridPosition: {x: 5, y: 5}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 32.5, y: 0, z: 27.5}
+    m_gridPosition: {x: 6, y: 5}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 37.5, y: 0, z: 27.5}
+    m_gridPosition: {x: 7, y: 5}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 42.5, y: 0, z: 27.5}
+    m_gridPosition: {x: 8, y: 5}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 47.5, y: 0, z: 27.5}
+    m_gridPosition: {x: 9, y: 5}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 52.5, y: 0, z: 27.5}
+    m_gridPosition: {x: 10, y: 5}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 57.5, y: 0, z: 27.5}
+    m_gridPosition: {x: 11, y: 5}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 62.5, y: 0, z: 27.5}
+    m_gridPosition: {x: 12, y: 5}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 67.5, y: 0, z: 27.5}
+    m_gridPosition: {x: 13, y: 5}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 72.5, y: 0, z: 27.5}
+    m_gridPosition: {x: 14, y: 5}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 77.5, y: 0, z: 27.5}
+    m_gridPosition: {x: 15, y: 5}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 82.5, y: 0, z: 27.5}
+    m_gridPosition: {x: 16, y: 5}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 87.5, y: 0, z: 27.5}
+    m_gridPosition: {x: 17, y: 5}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 92.5, y: 0, z: 27.5}
+    m_gridPosition: {x: 18, y: 5}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 97.5, y: 0, z: 27.5}
+    m_gridPosition: {x: 19, y: 5}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 102.5, y: 0, z: 27.5}
+    m_gridPosition: {x: 20, y: 5}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 107.5, y: 0, z: 27.5}
+    m_gridPosition: {x: 21, y: 5}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 112.5, y: 0, z: 27.5}
+    m_gridPosition: {x: 22, y: 5}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 117.5, y: 0, z: 27.5}
+    m_gridPosition: {x: 23, y: 5}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 122.5, y: 0, z: 27.5}
+    m_gridPosition: {x: 24, y: 5}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 127.5, y: 0, z: 27.5}
+    m_gridPosition: {x: 25, y: 5}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 132.5, y: 0, z: 27.5}
+    m_gridPosition: {x: 26, y: 5}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 137.5, y: 0, z: 27.5}
+    m_gridPosition: {x: 27, y: 5}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 142.5, y: 0, z: 27.5}
+    m_gridPosition: {x: 28, y: 5}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 147.5, y: 0, z: 27.5}
+    m_gridPosition: {x: 29, y: 5}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 152.5, y: 0, z: 27.5}
+    m_gridPosition: {x: 30, y: 5}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 157.5, y: 0, z: 27.5}
+    m_gridPosition: {x: 31, y: 5}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 2.5, y: 0, z: 32.5}
+    m_gridPosition: {x: 0, y: 6}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 7.5, y: 0, z: 32.5}
+    m_gridPosition: {x: 1, y: 6}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 12.5, y: 0, z: 32.5}
+    m_gridPosition: {x: 2, y: 6}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 17.5, y: 0, z: 32.5}
+    m_gridPosition: {x: 3, y: 6}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 22.5, y: 0, z: 32.5}
+    m_gridPosition: {x: 4, y: 6}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 27.5, y: 0, z: 32.5}
+    m_gridPosition: {x: 5, y: 6}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 32.5, y: 0, z: 32.5}
+    m_gridPosition: {x: 6, y: 6}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 37.5, y: 0, z: 32.5}
+    m_gridPosition: {x: 7, y: 6}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 42.5, y: 0, z: 32.5}
+    m_gridPosition: {x: 8, y: 6}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 47.5, y: 0, z: 32.5}
+    m_gridPosition: {x: 9, y: 6}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 52.5, y: 0, z: 32.5}
+    m_gridPosition: {x: 10, y: 6}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 57.5, y: 0, z: 32.5}
+    m_gridPosition: {x: 11, y: 6}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 62.5, y: 0, z: 32.5}
+    m_gridPosition: {x: 12, y: 6}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 67.5, y: 0, z: 32.5}
+    m_gridPosition: {x: 13, y: 6}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 72.5, y: 0, z: 32.5}
+    m_gridPosition: {x: 14, y: 6}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 77.5, y: 0, z: 32.5}
+    m_gridPosition: {x: 15, y: 6}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 82.5, y: 0, z: 32.5}
+    m_gridPosition: {x: 16, y: 6}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 87.5, y: 0, z: 32.5}
+    m_gridPosition: {x: 17, y: 6}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 92.5, y: 0, z: 32.5}
+    m_gridPosition: {x: 18, y: 6}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 97.5, y: 0, z: 32.5}
+    m_gridPosition: {x: 19, y: 6}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 102.5, y: 0, z: 32.5}
+    m_gridPosition: {x: 20, y: 6}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 107.5, y: 0, z: 32.5}
+    m_gridPosition: {x: 21, y: 6}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 112.5, y: 0, z: 32.5}
+    m_gridPosition: {x: 22, y: 6}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 117.5, y: 0, z: 32.5}
+    m_gridPosition: {x: 23, y: 6}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 122.5, y: 0, z: 32.5}
+    m_gridPosition: {x: 24, y: 6}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 127.5, y: 0, z: 32.5}
+    m_gridPosition: {x: 25, y: 6}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 132.5, y: 0, z: 32.5}
+    m_gridPosition: {x: 26, y: 6}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 137.5, y: 0, z: 32.5}
+    m_gridPosition: {x: 27, y: 6}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 142.5, y: 0, z: 32.5}
+    m_gridPosition: {x: 28, y: 6}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 147.5, y: 0, z: 32.5}
+    m_gridPosition: {x: 29, y: 6}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 152.5, y: 0, z: 32.5}
+    m_gridPosition: {x: 30, y: 6}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 157.5, y: 0, z: 32.5}
+    m_gridPosition: {x: 31, y: 6}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 2.5, y: 0, z: 37.5}
+    m_gridPosition: {x: 0, y: 7}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 7.5, y: 0, z: 37.5}
+    m_gridPosition: {x: 1, y: 7}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 12.5, y: 0, z: 37.5}
+    m_gridPosition: {x: 2, y: 7}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 17.5, y: 0, z: 37.5}
+    m_gridPosition: {x: 3, y: 7}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 22.5, y: 0, z: 37.5}
+    m_gridPosition: {x: 4, y: 7}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 27.5, y: 0, z: 37.5}
+    m_gridPosition: {x: 5, y: 7}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 32.5, y: 0, z: 37.5}
+    m_gridPosition: {x: 6, y: 7}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 37.5, y: 0, z: 37.5}
+    m_gridPosition: {x: 7, y: 7}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 42.5, y: 0, z: 37.5}
+    m_gridPosition: {x: 8, y: 7}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 47.5, y: 0, z: 37.5}
+    m_gridPosition: {x: 9, y: 7}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 52.5, y: 0, z: 37.5}
+    m_gridPosition: {x: 10, y: 7}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 57.5, y: 0, z: 37.5}
+    m_gridPosition: {x: 11, y: 7}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 62.5, y: 0, z: 37.5}
+    m_gridPosition: {x: 12, y: 7}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 67.5, y: 0, z: 37.5}
+    m_gridPosition: {x: 13, y: 7}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 72.5, y: 0, z: 37.5}
+    m_gridPosition: {x: 14, y: 7}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 77.5, y: 0, z: 37.5}
+    m_gridPosition: {x: 15, y: 7}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 82.5, y: 0, z: 37.5}
+    m_gridPosition: {x: 16, y: 7}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 87.5, y: 0, z: 37.5}
+    m_gridPosition: {x: 17, y: 7}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 92.5, y: 0, z: 37.5}
+    m_gridPosition: {x: 18, y: 7}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 97.5, y: 0, z: 37.5}
+    m_gridPosition: {x: 19, y: 7}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 102.5, y: 0, z: 37.5}
+    m_gridPosition: {x: 20, y: 7}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 107.5, y: 0, z: 37.5}
+    m_gridPosition: {x: 21, y: 7}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 112.5, y: 0, z: 37.5}
+    m_gridPosition: {x: 22, y: 7}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 117.5, y: 0, z: 37.5}
+    m_gridPosition: {x: 23, y: 7}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 122.5, y: 0, z: 37.5}
+    m_gridPosition: {x: 24, y: 7}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 127.5, y: 0, z: 37.5}
+    m_gridPosition: {x: 25, y: 7}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 132.5, y: 0, z: 37.5}
+    m_gridPosition: {x: 26, y: 7}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 137.5, y: 0, z: 37.5}
+    m_gridPosition: {x: 27, y: 7}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 142.5, y: 0, z: 37.5}
+    m_gridPosition: {x: 28, y: 7}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 147.5, y: 0, z: 37.5}
+    m_gridPosition: {x: 29, y: 7}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 152.5, y: 0, z: 37.5}
+    m_gridPosition: {x: 30, y: 7}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 157.5, y: 0, z: 37.5}
+    m_gridPosition: {x: 31, y: 7}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 2.5, y: 0, z: 42.5}
+    m_gridPosition: {x: 0, y: 8}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 7.5, y: 0, z: 42.5}
+    m_gridPosition: {x: 1, y: 8}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 12.5, y: 0, z: 42.5}
+    m_gridPosition: {x: 2, y: 8}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 17.5, y: 0, z: 42.5}
+    m_gridPosition: {x: 3, y: 8}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 22.5, y: 0, z: 42.5}
+    m_gridPosition: {x: 4, y: 8}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 27.5, y: 0, z: 42.5}
+    m_gridPosition: {x: 5, y: 8}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 32.5, y: 0, z: 42.5}
+    m_gridPosition: {x: 6, y: 8}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 37.5, y: 0, z: 42.5}
+    m_gridPosition: {x: 7, y: 8}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 42.5, y: 0, z: 42.5}
+    m_gridPosition: {x: 8, y: 8}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 47.5, y: 0, z: 42.5}
+    m_gridPosition: {x: 9, y: 8}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 52.5, y: 0, z: 42.5}
+    m_gridPosition: {x: 10, y: 8}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 57.5, y: 0, z: 42.5}
+    m_gridPosition: {x: 11, y: 8}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 62.5, y: 0, z: 42.5}
+    m_gridPosition: {x: 12, y: 8}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 67.5, y: 0, z: 42.5}
+    m_gridPosition: {x: 13, y: 8}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 72.5, y: 0, z: 42.5}
+    m_gridPosition: {x: 14, y: 8}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 77.5, y: 0, z: 42.5}
+    m_gridPosition: {x: 15, y: 8}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 82.5, y: 0, z: 42.5}
+    m_gridPosition: {x: 16, y: 8}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 87.5, y: 0, z: 42.5}
+    m_gridPosition: {x: 17, y: 8}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 92.5, y: 0, z: 42.5}
+    m_gridPosition: {x: 18, y: 8}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 97.5, y: 0, z: 42.5}
+    m_gridPosition: {x: 19, y: 8}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 102.5, y: 0, z: 42.5}
+    m_gridPosition: {x: 20, y: 8}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 107.5, y: 0, z: 42.5}
+    m_gridPosition: {x: 21, y: 8}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 112.5, y: 0, z: 42.5}
+    m_gridPosition: {x: 22, y: 8}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 117.5, y: 0, z: 42.5}
+    m_gridPosition: {x: 23, y: 8}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 122.5, y: 0, z: 42.5}
+    m_gridPosition: {x: 24, y: 8}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 127.5, y: 0, z: 42.5}
+    m_gridPosition: {x: 25, y: 8}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 132.5, y: 0, z: 42.5}
+    m_gridPosition: {x: 26, y: 8}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 137.5, y: 0, z: 42.5}
+    m_gridPosition: {x: 27, y: 8}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 142.5, y: 0, z: 42.5}
+    m_gridPosition: {x: 28, y: 8}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 147.5, y: 0, z: 42.5}
+    m_gridPosition: {x: 29, y: 8}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 152.5, y: 0, z: 42.5}
+    m_gridPosition: {x: 30, y: 8}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 157.5, y: 0, z: 42.5}
+    m_gridPosition: {x: 31, y: 8}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 2.5, y: 0, z: 47.5}
+    m_gridPosition: {x: 0, y: 9}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 7.5, y: 0, z: 47.5}
+    m_gridPosition: {x: 1, y: 9}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 12.5, y: 0, z: 47.5}
+    m_gridPosition: {x: 2, y: 9}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 17.5, y: 0, z: 47.5}
+    m_gridPosition: {x: 3, y: 9}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 22.5, y: 0, z: 47.5}
+    m_gridPosition: {x: 4, y: 9}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 27.5, y: 0, z: 47.5}
+    m_gridPosition: {x: 5, y: 9}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 32.5, y: 0, z: 47.5}
+    m_gridPosition: {x: 6, y: 9}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 37.5, y: 0, z: 47.5}
+    m_gridPosition: {x: 7, y: 9}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 42.5, y: 0, z: 47.5}
+    m_gridPosition: {x: 8, y: 9}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 47.5, y: 0, z: 47.5}
+    m_gridPosition: {x: 9, y: 9}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 52.5, y: 0, z: 47.5}
+    m_gridPosition: {x: 10, y: 9}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 57.5, y: 0, z: 47.5}
+    m_gridPosition: {x: 11, y: 9}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 62.5, y: 0, z: 47.5}
+    m_gridPosition: {x: 12, y: 9}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 67.5, y: 0, z: 47.5}
+    m_gridPosition: {x: 13, y: 9}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 72.5, y: 0, z: 47.5}
+    m_gridPosition: {x: 14, y: 9}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 77.5, y: 0, z: 47.5}
+    m_gridPosition: {x: 15, y: 9}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 82.5, y: 0, z: 47.5}
+    m_gridPosition: {x: 16, y: 9}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 87.5, y: 0, z: 47.5}
+    m_gridPosition: {x: 17, y: 9}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 92.5, y: 0, z: 47.5}
+    m_gridPosition: {x: 18, y: 9}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 97.5, y: 0, z: 47.5}
+    m_gridPosition: {x: 19, y: 9}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 102.5, y: 0, z: 47.5}
+    m_gridPosition: {x: 20, y: 9}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 107.5, y: 0, z: 47.5}
+    m_gridPosition: {x: 21, y: 9}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 112.5, y: 0, z: 47.5}
+    m_gridPosition: {x: 22, y: 9}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 117.5, y: 0, z: 47.5}
+    m_gridPosition: {x: 23, y: 9}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 122.5, y: 0, z: 47.5}
+    m_gridPosition: {x: 24, y: 9}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 127.5, y: 0, z: 47.5}
+    m_gridPosition: {x: 25, y: 9}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 132.5, y: 0, z: 47.5}
+    m_gridPosition: {x: 26, y: 9}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 137.5, y: 0, z: 47.5}
+    m_gridPosition: {x: 27, y: 9}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 142.5, y: 0, z: 47.5}
+    m_gridPosition: {x: 28, y: 9}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 147.5, y: 0, z: 47.5}
+    m_gridPosition: {x: 29, y: 9}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 152.5, y: 0, z: 47.5}
+    m_gridPosition: {x: 30, y: 9}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 157.5, y: 0, z: 47.5}
+    m_gridPosition: {x: 31, y: 9}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 2.5, y: 0, z: 52.5}
+    m_gridPosition: {x: 0, y: 10}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 7.5, y: 0, z: 52.5}
+    m_gridPosition: {x: 1, y: 10}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 12.5, y: 0, z: 52.5}
+    m_gridPosition: {x: 2, y: 10}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 17.5, y: 0, z: 52.5}
+    m_gridPosition: {x: 3, y: 10}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 22.5, y: 0, z: 52.5}
+    m_gridPosition: {x: 4, y: 10}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 27.5, y: 0, z: 52.5}
+    m_gridPosition: {x: 5, y: 10}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 32.5, y: 0, z: 52.5}
+    m_gridPosition: {x: 6, y: 10}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 37.5, y: 0, z: 52.5}
+    m_gridPosition: {x: 7, y: 10}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 42.5, y: 0, z: 52.5}
+    m_gridPosition: {x: 8, y: 10}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 47.5, y: 0, z: 52.5}
+    m_gridPosition: {x: 9, y: 10}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 52.5, y: 0, z: 52.5}
+    m_gridPosition: {x: 10, y: 10}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 57.5, y: 0, z: 52.5}
+    m_gridPosition: {x: 11, y: 10}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 62.5, y: 0, z: 52.5}
+    m_gridPosition: {x: 12, y: 10}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 67.5, y: 0, z: 52.5}
+    m_gridPosition: {x: 13, y: 10}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 72.5, y: 0, z: 52.5}
+    m_gridPosition: {x: 14, y: 10}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 77.5, y: 0, z: 52.5}
+    m_gridPosition: {x: 15, y: 10}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 82.5, y: 0, z: 52.5}
+    m_gridPosition: {x: 16, y: 10}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 87.5, y: 0, z: 52.5}
+    m_gridPosition: {x: 17, y: 10}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 92.5, y: 0, z: 52.5}
+    m_gridPosition: {x: 18, y: 10}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 97.5, y: 0, z: 52.5}
+    m_gridPosition: {x: 19, y: 10}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 102.5, y: 0, z: 52.5}
+    m_gridPosition: {x: 20, y: 10}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 107.5, y: 0, z: 52.5}
+    m_gridPosition: {x: 21, y: 10}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 112.5, y: 0, z: 52.5}
+    m_gridPosition: {x: 22, y: 10}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 117.5, y: 0, z: 52.5}
+    m_gridPosition: {x: 23, y: 10}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 122.5, y: 0, z: 52.5}
+    m_gridPosition: {x: 24, y: 10}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 127.5, y: 0, z: 52.5}
+    m_gridPosition: {x: 25, y: 10}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 132.5, y: 0, z: 52.5}
+    m_gridPosition: {x: 26, y: 10}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 137.5, y: 0, z: 52.5}
+    m_gridPosition: {x: 27, y: 10}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 142.5, y: 0, z: 52.5}
+    m_gridPosition: {x: 28, y: 10}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 147.5, y: 0, z: 52.5}
+    m_gridPosition: {x: 29, y: 10}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 152.5, y: 0, z: 52.5}
+    m_gridPosition: {x: 30, y: 10}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 157.5, y: 0, z: 52.5}
+    m_gridPosition: {x: 31, y: 10}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 2.5, y: 0, z: 57.5}
+    m_gridPosition: {x: 0, y: 11}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 7.5, y: 0, z: 57.5}
+    m_gridPosition: {x: 1, y: 11}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 12.5, y: 0, z: 57.5}
+    m_gridPosition: {x: 2, y: 11}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 17.5, y: 0, z: 57.5}
+    m_gridPosition: {x: 3, y: 11}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 22.5, y: 0, z: 57.5}
+    m_gridPosition: {x: 4, y: 11}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 27.5, y: 0, z: 57.5}
+    m_gridPosition: {x: 5, y: 11}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 32.5, y: 0, z: 57.5}
+    m_gridPosition: {x: 6, y: 11}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 37.5, y: 0, z: 57.5}
+    m_gridPosition: {x: 7, y: 11}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 42.5, y: 0, z: 57.5}
+    m_gridPosition: {x: 8, y: 11}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 47.5, y: 0, z: 57.5}
+    m_gridPosition: {x: 9, y: 11}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 52.5, y: 0, z: 57.5}
+    m_gridPosition: {x: 10, y: 11}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 57.5, y: 0, z: 57.5}
+    m_gridPosition: {x: 11, y: 11}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 62.5, y: 0, z: 57.5}
+    m_gridPosition: {x: 12, y: 11}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 67.5, y: 0, z: 57.5}
+    m_gridPosition: {x: 13, y: 11}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 72.5, y: 0, z: 57.5}
+    m_gridPosition: {x: 14, y: 11}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 77.5, y: 0, z: 57.5}
+    m_gridPosition: {x: 15, y: 11}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 82.5, y: 0, z: 57.5}
+    m_gridPosition: {x: 16, y: 11}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 87.5, y: 0, z: 57.5}
+    m_gridPosition: {x: 17, y: 11}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 92.5, y: 0, z: 57.5}
+    m_gridPosition: {x: 18, y: 11}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 97.5, y: 0, z: 57.5}
+    m_gridPosition: {x: 19, y: 11}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 102.5, y: 0, z: 57.5}
+    m_gridPosition: {x: 20, y: 11}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 107.5, y: 0, z: 57.5}
+    m_gridPosition: {x: 21, y: 11}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 112.5, y: 0, z: 57.5}
+    m_gridPosition: {x: 22, y: 11}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 117.5, y: 0, z: 57.5}
+    m_gridPosition: {x: 23, y: 11}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 122.5, y: 0, z: 57.5}
+    m_gridPosition: {x: 24, y: 11}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 127.5, y: 0, z: 57.5}
+    m_gridPosition: {x: 25, y: 11}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 132.5, y: 0, z: 57.5}
+    m_gridPosition: {x: 26, y: 11}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 137.5, y: 0, z: 57.5}
+    m_gridPosition: {x: 27, y: 11}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 142.5, y: 0, z: 57.5}
+    m_gridPosition: {x: 28, y: 11}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 147.5, y: 0, z: 57.5}
+    m_gridPosition: {x: 29, y: 11}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 152.5, y: 0, z: 57.5}
+    m_gridPosition: {x: 30, y: 11}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 157.5, y: 0, z: 57.5}
+    m_gridPosition: {x: 31, y: 11}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 2.5, y: 0, z: 62.5}
+    m_gridPosition: {x: 0, y: 12}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 7.5, y: 0, z: 62.5}
+    m_gridPosition: {x: 1, y: 12}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 12.5, y: 0, z: 62.5}
+    m_gridPosition: {x: 2, y: 12}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 17.5, y: 0, z: 62.5}
+    m_gridPosition: {x: 3, y: 12}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 22.5, y: 0, z: 62.5}
+    m_gridPosition: {x: 4, y: 12}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 27.5, y: 0, z: 62.5}
+    m_gridPosition: {x: 5, y: 12}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 32.5, y: 0, z: 62.5}
+    m_gridPosition: {x: 6, y: 12}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 37.5, y: 0, z: 62.5}
+    m_gridPosition: {x: 7, y: 12}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 42.5, y: 0, z: 62.5}
+    m_gridPosition: {x: 8, y: 12}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 47.5, y: 0, z: 62.5}
+    m_gridPosition: {x: 9, y: 12}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 52.5, y: 0, z: 62.5}
+    m_gridPosition: {x: 10, y: 12}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 57.5, y: 0, z: 62.5}
+    m_gridPosition: {x: 11, y: 12}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 62.5, y: 0, z: 62.5}
+    m_gridPosition: {x: 12, y: 12}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 67.5, y: 0, z: 62.5}
+    m_gridPosition: {x: 13, y: 12}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 72.5, y: 0, z: 62.5}
+    m_gridPosition: {x: 14, y: 12}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 77.5, y: 0, z: 62.5}
+    m_gridPosition: {x: 15, y: 12}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 82.5, y: 0, z: 62.5}
+    m_gridPosition: {x: 16, y: 12}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 87.5, y: 0, z: 62.5}
+    m_gridPosition: {x: 17, y: 12}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 92.5, y: 0, z: 62.5}
+    m_gridPosition: {x: 18, y: 12}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 97.5, y: 0, z: 62.5}
+    m_gridPosition: {x: 19, y: 12}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 102.5, y: 0, z: 62.5}
+    m_gridPosition: {x: 20, y: 12}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 107.5, y: 0, z: 62.5}
+    m_gridPosition: {x: 21, y: 12}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 112.5, y: 0, z: 62.5}
+    m_gridPosition: {x: 22, y: 12}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 117.5, y: 0, z: 62.5}
+    m_gridPosition: {x: 23, y: 12}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 122.5, y: 0, z: 62.5}
+    m_gridPosition: {x: 24, y: 12}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 127.5, y: 0, z: 62.5}
+    m_gridPosition: {x: 25, y: 12}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 132.5, y: 0, z: 62.5}
+    m_gridPosition: {x: 26, y: 12}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 137.5, y: 0, z: 62.5}
+    m_gridPosition: {x: 27, y: 12}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 142.5, y: 0, z: 62.5}
+    m_gridPosition: {x: 28, y: 12}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 147.5, y: 0, z: 62.5}
+    m_gridPosition: {x: 29, y: 12}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 152.5, y: 0, z: 62.5}
+    m_gridPosition: {x: 30, y: 12}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 157.5, y: 0, z: 62.5}
+    m_gridPosition: {x: 31, y: 12}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 2.5, y: 0, z: 67.5}
+    m_gridPosition: {x: 0, y: 13}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 7.5, y: 0, z: 67.5}
+    m_gridPosition: {x: 1, y: 13}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 12.5, y: 0, z: 67.5}
+    m_gridPosition: {x: 2, y: 13}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 17.5, y: 0, z: 67.5}
+    m_gridPosition: {x: 3, y: 13}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 22.5, y: 0, z: 67.5}
+    m_gridPosition: {x: 4, y: 13}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 27.5, y: 0, z: 67.5}
+    m_gridPosition: {x: 5, y: 13}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 32.5, y: 0, z: 67.5}
+    m_gridPosition: {x: 6, y: 13}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 37.5, y: 0, z: 67.5}
+    m_gridPosition: {x: 7, y: 13}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 42.5, y: 0, z: 67.5}
+    m_gridPosition: {x: 8, y: 13}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 47.5, y: 0, z: 67.5}
+    m_gridPosition: {x: 9, y: 13}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 52.5, y: 0, z: 67.5}
+    m_gridPosition: {x: 10, y: 13}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 57.5, y: 0, z: 67.5}
+    m_gridPosition: {x: 11, y: 13}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 62.5, y: 0, z: 67.5}
+    m_gridPosition: {x: 12, y: 13}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 67.5, y: 0, z: 67.5}
+    m_gridPosition: {x: 13, y: 13}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 72.5, y: 0, z: 67.5}
+    m_gridPosition: {x: 14, y: 13}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 77.5, y: 0, z: 67.5}
+    m_gridPosition: {x: 15, y: 13}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 82.5, y: 0, z: 67.5}
+    m_gridPosition: {x: 16, y: 13}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 87.5, y: 0, z: 67.5}
+    m_gridPosition: {x: 17, y: 13}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 92.5, y: 0, z: 67.5}
+    m_gridPosition: {x: 18, y: 13}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 97.5, y: 0, z: 67.5}
+    m_gridPosition: {x: 19, y: 13}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 102.5, y: 0, z: 67.5}
+    m_gridPosition: {x: 20, y: 13}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 107.5, y: 0, z: 67.5}
+    m_gridPosition: {x: 21, y: 13}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 112.5, y: 0, z: 67.5}
+    m_gridPosition: {x: 22, y: 13}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 117.5, y: 0, z: 67.5}
+    m_gridPosition: {x: 23, y: 13}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 122.5, y: 0, z: 67.5}
+    m_gridPosition: {x: 24, y: 13}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 127.5, y: 0, z: 67.5}
+    m_gridPosition: {x: 25, y: 13}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 132.5, y: 0, z: 67.5}
+    m_gridPosition: {x: 26, y: 13}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 137.5, y: 0, z: 67.5}
+    m_gridPosition: {x: 27, y: 13}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 142.5, y: 0, z: 67.5}
+    m_gridPosition: {x: 28, y: 13}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 147.5, y: 0, z: 67.5}
+    m_gridPosition: {x: 29, y: 13}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 152.5, y: 0, z: 67.5}
+    m_gridPosition: {x: 30, y: 13}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 157.5, y: 0, z: 67.5}
+    m_gridPosition: {x: 31, y: 13}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 2.5, y: 0, z: 72.5}
+    m_gridPosition: {x: 0, y: 14}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 7.5, y: 0, z: 72.5}
+    m_gridPosition: {x: 1, y: 14}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 12.5, y: 0, z: 72.5}
+    m_gridPosition: {x: 2, y: 14}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 17.5, y: 0, z: 72.5}
+    m_gridPosition: {x: 3, y: 14}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 22.5, y: 0, z: 72.5}
+    m_gridPosition: {x: 4, y: 14}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 27.5, y: 0, z: 72.5}
+    m_gridPosition: {x: 5, y: 14}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 32.5, y: 0, z: 72.5}
+    m_gridPosition: {x: 6, y: 14}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 37.5, y: 0, z: 72.5}
+    m_gridPosition: {x: 7, y: 14}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 42.5, y: 0, z: 72.5}
+    m_gridPosition: {x: 8, y: 14}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 47.5, y: 0, z: 72.5}
+    m_gridPosition: {x: 9, y: 14}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 52.5, y: 0, z: 72.5}
+    m_gridPosition: {x: 10, y: 14}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 57.5, y: 0, z: 72.5}
+    m_gridPosition: {x: 11, y: 14}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 62.5, y: 0, z: 72.5}
+    m_gridPosition: {x: 12, y: 14}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 67.5, y: 0, z: 72.5}
+    m_gridPosition: {x: 13, y: 14}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 72.5, y: 0, z: 72.5}
+    m_gridPosition: {x: 14, y: 14}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 77.5, y: 0, z: 72.5}
+    m_gridPosition: {x: 15, y: 14}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 82.5, y: 0, z: 72.5}
+    m_gridPosition: {x: 16, y: 14}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 87.5, y: 0, z: 72.5}
+    m_gridPosition: {x: 17, y: 14}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 92.5, y: 0, z: 72.5}
+    m_gridPosition: {x: 18, y: 14}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 97.5, y: 0, z: 72.5}
+    m_gridPosition: {x: 19, y: 14}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 102.5, y: 0, z: 72.5}
+    m_gridPosition: {x: 20, y: 14}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 107.5, y: 0, z: 72.5}
+    m_gridPosition: {x: 21, y: 14}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 112.5, y: 0, z: 72.5}
+    m_gridPosition: {x: 22, y: 14}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 117.5, y: 0, z: 72.5}
+    m_gridPosition: {x: 23, y: 14}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 122.5, y: 0, z: 72.5}
+    m_gridPosition: {x: 24, y: 14}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 127.5, y: 0, z: 72.5}
+    m_gridPosition: {x: 25, y: 14}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 132.5, y: 0, z: 72.5}
+    m_gridPosition: {x: 26, y: 14}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 137.5, y: 0, z: 72.5}
+    m_gridPosition: {x: 27, y: 14}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 142.5, y: 0, z: 72.5}
+    m_gridPosition: {x: 28, y: 14}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 147.5, y: 0, z: 72.5}
+    m_gridPosition: {x: 29, y: 14}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 152.5, y: 0, z: 72.5}
+    m_gridPosition: {x: 30, y: 14}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 157.5, y: 0, z: 72.5}
+    m_gridPosition: {x: 31, y: 14}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 2.5, y: 0, z: 77.5}
+    m_gridPosition: {x: 0, y: 15}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 7.5, y: 0, z: 77.5}
+    m_gridPosition: {x: 1, y: 15}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 12.5, y: 0, z: 77.5}
+    m_gridPosition: {x: 2, y: 15}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 17.5, y: 0, z: 77.5}
+    m_gridPosition: {x: 3, y: 15}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 22.5, y: 0, z: 77.5}
+    m_gridPosition: {x: 4, y: 15}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 27.5, y: 0, z: 77.5}
+    m_gridPosition: {x: 5, y: 15}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 32.5, y: 0, z: 77.5}
+    m_gridPosition: {x: 6, y: 15}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 37.5, y: 0, z: 77.5}
+    m_gridPosition: {x: 7, y: 15}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 42.5, y: 0, z: 77.5}
+    m_gridPosition: {x: 8, y: 15}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 47.5, y: 0, z: 77.5}
+    m_gridPosition: {x: 9, y: 15}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 52.5, y: 0, z: 77.5}
+    m_gridPosition: {x: 10, y: 15}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 57.5, y: 0, z: 77.5}
+    m_gridPosition: {x: 11, y: 15}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 62.5, y: 0, z: 77.5}
+    m_gridPosition: {x: 12, y: 15}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 67.5, y: 0, z: 77.5}
+    m_gridPosition: {x: 13, y: 15}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 72.5, y: 0, z: 77.5}
+    m_gridPosition: {x: 14, y: 15}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 77.5, y: 0, z: 77.5}
+    m_gridPosition: {x: 15, y: 15}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 82.5, y: 0, z: 77.5}
+    m_gridPosition: {x: 16, y: 15}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 87.5, y: 0, z: 77.5}
+    m_gridPosition: {x: 17, y: 15}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 92.5, y: 0, z: 77.5}
+    m_gridPosition: {x: 18, y: 15}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 97.5, y: 0, z: 77.5}
+    m_gridPosition: {x: 19, y: 15}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 102.5, y: 0, z: 77.5}
+    m_gridPosition: {x: 20, y: 15}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 107.5, y: 0, z: 77.5}
+    m_gridPosition: {x: 21, y: 15}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 112.5, y: 0, z: 77.5}
+    m_gridPosition: {x: 22, y: 15}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 117.5, y: 0, z: 77.5}
+    m_gridPosition: {x: 23, y: 15}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 122.5, y: 0, z: 77.5}
+    m_gridPosition: {x: 24, y: 15}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 127.5, y: 0, z: 77.5}
+    m_gridPosition: {x: 25, y: 15}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 132.5, y: 0, z: 77.5}
+    m_gridPosition: {x: 26, y: 15}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 137.5, y: 0, z: 77.5}
+    m_gridPosition: {x: 27, y: 15}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 142.5, y: 0, z: 77.5}
+    m_gridPosition: {x: 28, y: 15}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 147.5, y: 0, z: 77.5}
+    m_gridPosition: {x: 29, y: 15}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 152.5, y: 0, z: 77.5}
+    m_gridPosition: {x: 30, y: 15}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 157.5, y: 0, z: 77.5}
+    m_gridPosition: {x: 31, y: 15}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 2.5, y: 0, z: 82.5}
+    m_gridPosition: {x: 0, y: 16}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 7.5, y: 0, z: 82.5}
+    m_gridPosition: {x: 1, y: 16}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 12.5, y: 0, z: 82.5}
+    m_gridPosition: {x: 2, y: 16}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 17.5, y: 0, z: 82.5}
+    m_gridPosition: {x: 3, y: 16}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 22.5, y: 0, z: 82.5}
+    m_gridPosition: {x: 4, y: 16}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 27.5, y: 0, z: 82.5}
+    m_gridPosition: {x: 5, y: 16}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 32.5, y: 0, z: 82.5}
+    m_gridPosition: {x: 6, y: 16}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 37.5, y: 0, z: 82.5}
+    m_gridPosition: {x: 7, y: 16}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 42.5, y: 0, z: 82.5}
+    m_gridPosition: {x: 8, y: 16}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 47.5, y: 0, z: 82.5}
+    m_gridPosition: {x: 9, y: 16}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 52.5, y: 0, z: 82.5}
+    m_gridPosition: {x: 10, y: 16}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 57.5, y: 0, z: 82.5}
+    m_gridPosition: {x: 11, y: 16}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 62.5, y: 0, z: 82.5}
+    m_gridPosition: {x: 12, y: 16}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 67.5, y: 0, z: 82.5}
+    m_gridPosition: {x: 13, y: 16}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 72.5, y: 0, z: 82.5}
+    m_gridPosition: {x: 14, y: 16}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 77.5, y: 0, z: 82.5}
+    m_gridPosition: {x: 15, y: 16}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 82.5, y: 0, z: 82.5}
+    m_gridPosition: {x: 16, y: 16}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 87.5, y: 0, z: 82.5}
+    m_gridPosition: {x: 17, y: 16}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 92.5, y: 0, z: 82.5}
+    m_gridPosition: {x: 18, y: 16}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 97.5, y: 0, z: 82.5}
+    m_gridPosition: {x: 19, y: 16}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 102.5, y: 0, z: 82.5}
+    m_gridPosition: {x: 20, y: 16}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 107.5, y: 0, z: 82.5}
+    m_gridPosition: {x: 21, y: 16}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 112.5, y: 0, z: 82.5}
+    m_gridPosition: {x: 22, y: 16}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 117.5, y: 0, z: 82.5}
+    m_gridPosition: {x: 23, y: 16}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 122.5, y: 0, z: 82.5}
+    m_gridPosition: {x: 24, y: 16}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 127.5, y: 0, z: 82.5}
+    m_gridPosition: {x: 25, y: 16}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 132.5, y: 0, z: 82.5}
+    m_gridPosition: {x: 26, y: 16}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 137.5, y: 0, z: 82.5}
+    m_gridPosition: {x: 27, y: 16}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 142.5, y: 0, z: 82.5}
+    m_gridPosition: {x: 28, y: 16}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 147.5, y: 0, z: 82.5}
+    m_gridPosition: {x: 29, y: 16}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 152.5, y: 0, z: 82.5}
+    m_gridPosition: {x: 30, y: 16}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 157.5, y: 0, z: 82.5}
+    m_gridPosition: {x: 31, y: 16}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 2.5, y: 0, z: 87.5}
+    m_gridPosition: {x: 0, y: 17}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 7.5, y: 0, z: 87.5}
+    m_gridPosition: {x: 1, y: 17}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 12.5, y: 0, z: 87.5}
+    m_gridPosition: {x: 2, y: 17}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 17.5, y: 0, z: 87.5}
+    m_gridPosition: {x: 3, y: 17}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 22.5, y: 0, z: 87.5}
+    m_gridPosition: {x: 4, y: 17}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 27.5, y: 0, z: 87.5}
+    m_gridPosition: {x: 5, y: 17}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 32.5, y: 0, z: 87.5}
+    m_gridPosition: {x: 6, y: 17}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 37.5, y: 0, z: 87.5}
+    m_gridPosition: {x: 7, y: 17}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 42.5, y: 0, z: 87.5}
+    m_gridPosition: {x: 8, y: 17}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 47.5, y: 0, z: 87.5}
+    m_gridPosition: {x: 9, y: 17}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 52.5, y: 0, z: 87.5}
+    m_gridPosition: {x: 10, y: 17}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 57.5, y: 0, z: 87.5}
+    m_gridPosition: {x: 11, y: 17}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 62.5, y: 0, z: 87.5}
+    m_gridPosition: {x: 12, y: 17}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 67.5, y: 0, z: 87.5}
+    m_gridPosition: {x: 13, y: 17}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 72.5, y: 0, z: 87.5}
+    m_gridPosition: {x: 14, y: 17}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 77.5, y: 0, z: 87.5}
+    m_gridPosition: {x: 15, y: 17}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 82.5, y: 0, z: 87.5}
+    m_gridPosition: {x: 16, y: 17}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 87.5, y: 0, z: 87.5}
+    m_gridPosition: {x: 17, y: 17}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 92.5, y: 0, z: 87.5}
+    m_gridPosition: {x: 18, y: 17}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 97.5, y: 0, z: 87.5}
+    m_gridPosition: {x: 19, y: 17}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 102.5, y: 0, z: 87.5}
+    m_gridPosition: {x: 20, y: 17}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 107.5, y: 0, z: 87.5}
+    m_gridPosition: {x: 21, y: 17}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 112.5, y: 0, z: 87.5}
+    m_gridPosition: {x: 22, y: 17}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 117.5, y: 0, z: 87.5}
+    m_gridPosition: {x: 23, y: 17}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 122.5, y: 0, z: 87.5}
+    m_gridPosition: {x: 24, y: 17}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 127.5, y: 0, z: 87.5}
+    m_gridPosition: {x: 25, y: 17}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 132.5, y: 0, z: 87.5}
+    m_gridPosition: {x: 26, y: 17}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 137.5, y: 0, z: 87.5}
+    m_gridPosition: {x: 27, y: 17}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 142.5, y: 0, z: 87.5}
+    m_gridPosition: {x: 28, y: 17}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 147.5, y: 0, z: 87.5}
+    m_gridPosition: {x: 29, y: 17}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 152.5, y: 0, z: 87.5}
+    m_gridPosition: {x: 30, y: 17}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 157.5, y: 0, z: 87.5}
+    m_gridPosition: {x: 31, y: 17}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 2.5, y: 0, z: 92.5}
+    m_gridPosition: {x: 0, y: 18}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 7.5, y: 0, z: 92.5}
+    m_gridPosition: {x: 1, y: 18}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 12.5, y: 0, z: 92.5}
+    m_gridPosition: {x: 2, y: 18}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 17.5, y: 0, z: 92.5}
+    m_gridPosition: {x: 3, y: 18}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 22.5, y: 0, z: 92.5}
+    m_gridPosition: {x: 4, y: 18}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 27.5, y: 0, z: 92.5}
+    m_gridPosition: {x: 5, y: 18}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 32.5, y: 0, z: 92.5}
+    m_gridPosition: {x: 6, y: 18}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 37.5, y: 0, z: 92.5}
+    m_gridPosition: {x: 7, y: 18}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 42.5, y: 0, z: 92.5}
+    m_gridPosition: {x: 8, y: 18}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 47.5, y: 0, z: 92.5}
+    m_gridPosition: {x: 9, y: 18}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 52.5, y: 0, z: 92.5}
+    m_gridPosition: {x: 10, y: 18}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 57.5, y: 0, z: 92.5}
+    m_gridPosition: {x: 11, y: 18}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 62.5, y: 0, z: 92.5}
+    m_gridPosition: {x: 12, y: 18}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 67.5, y: 0, z: 92.5}
+    m_gridPosition: {x: 13, y: 18}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 72.5, y: 0, z: 92.5}
+    m_gridPosition: {x: 14, y: 18}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 77.5, y: 0, z: 92.5}
+    m_gridPosition: {x: 15, y: 18}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 82.5, y: 0, z: 92.5}
+    m_gridPosition: {x: 16, y: 18}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 87.5, y: 0, z: 92.5}
+    m_gridPosition: {x: 17, y: 18}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 92.5, y: 0, z: 92.5}
+    m_gridPosition: {x: 18, y: 18}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 97.5, y: 0, z: 92.5}
+    m_gridPosition: {x: 19, y: 18}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 102.5, y: 0, z: 92.5}
+    m_gridPosition: {x: 20, y: 18}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 107.5, y: 0, z: 92.5}
+    m_gridPosition: {x: 21, y: 18}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 112.5, y: 0, z: 92.5}
+    m_gridPosition: {x: 22, y: 18}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 117.5, y: 0, z: 92.5}
+    m_gridPosition: {x: 23, y: 18}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 122.5, y: 0, z: 92.5}
+    m_gridPosition: {x: 24, y: 18}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 127.5, y: 0, z: 92.5}
+    m_gridPosition: {x: 25, y: 18}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 132.5, y: 0, z: 92.5}
+    m_gridPosition: {x: 26, y: 18}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 137.5, y: 0, z: 92.5}
+    m_gridPosition: {x: 27, y: 18}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 142.5, y: 0, z: 92.5}
+    m_gridPosition: {x: 28, y: 18}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 147.5, y: 0, z: 92.5}
+    m_gridPosition: {x: 29, y: 18}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 152.5, y: 0, z: 92.5}
+    m_gridPosition: {x: 30, y: 18}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 157.5, y: 0, z: 92.5}
+    m_gridPosition: {x: 31, y: 18}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 2.5, y: 0, z: 97.5}
+    m_gridPosition: {x: 0, y: 19}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 7.5, y: 0, z: 97.5}
+    m_gridPosition: {x: 1, y: 19}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 12.5, y: 0, z: 97.5}
+    m_gridPosition: {x: 2, y: 19}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 17.5, y: 0, z: 97.5}
+    m_gridPosition: {x: 3, y: 19}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 22.5, y: 0, z: 97.5}
+    m_gridPosition: {x: 4, y: 19}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 27.5, y: 0, z: 97.5}
+    m_gridPosition: {x: 5, y: 19}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 32.5, y: 0, z: 97.5}
+    m_gridPosition: {x: 6, y: 19}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 37.5, y: 0, z: 97.5}
+    m_gridPosition: {x: 7, y: 19}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 42.5, y: 0, z: 97.5}
+    m_gridPosition: {x: 8, y: 19}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 47.5, y: 0, z: 97.5}
+    m_gridPosition: {x: 9, y: 19}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 52.5, y: 0, z: 97.5}
+    m_gridPosition: {x: 10, y: 19}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 57.5, y: 0, z: 97.5}
+    m_gridPosition: {x: 11, y: 19}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 62.5, y: 0, z: 97.5}
+    m_gridPosition: {x: 12, y: 19}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 67.5, y: 0, z: 97.5}
+    m_gridPosition: {x: 13, y: 19}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 72.5, y: 0, z: 97.5}
+    m_gridPosition: {x: 14, y: 19}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 77.5, y: 0, z: 97.5}
+    m_gridPosition: {x: 15, y: 19}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 82.5, y: 0, z: 97.5}
+    m_gridPosition: {x: 16, y: 19}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 87.5, y: 0, z: 97.5}
+    m_gridPosition: {x: 17, y: 19}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 92.5, y: 0, z: 97.5}
+    m_gridPosition: {x: 18, y: 19}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 97.5, y: 0, z: 97.5}
+    m_gridPosition: {x: 19, y: 19}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 102.5, y: 0, z: 97.5}
+    m_gridPosition: {x: 20, y: 19}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 107.5, y: 0, z: 97.5}
+    m_gridPosition: {x: 21, y: 19}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 112.5, y: 0, z: 97.5}
+    m_gridPosition: {x: 22, y: 19}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 117.5, y: 0, z: 97.5}
+    m_gridPosition: {x: 23, y: 19}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 122.5, y: 0, z: 97.5}
+    m_gridPosition: {x: 24, y: 19}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 127.5, y: 0, z: 97.5}
+    m_gridPosition: {x: 25, y: 19}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 132.5, y: 0, z: 97.5}
+    m_gridPosition: {x: 26, y: 19}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 137.5, y: 0, z: 97.5}
+    m_gridPosition: {x: 27, y: 19}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 142.5, y: 0, z: 97.5}
+    m_gridPosition: {x: 28, y: 19}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 147.5, y: 0, z: 97.5}
+    m_gridPosition: {x: 29, y: 19}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 152.5, y: 0, z: 97.5}
+    m_gridPosition: {x: 30, y: 19}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 157.5, y: 0, z: 97.5}
+    m_gridPosition: {x: 31, y: 19}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 2.5, y: 0, z: 102.5}
+    m_gridPosition: {x: 0, y: 20}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 7.5, y: 0, z: 102.5}
+    m_gridPosition: {x: 1, y: 20}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 12.5, y: 0, z: 102.5}
+    m_gridPosition: {x: 2, y: 20}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 17.5, y: 0, z: 102.5}
+    m_gridPosition: {x: 3, y: 20}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 22.5, y: 0, z: 102.5}
+    m_gridPosition: {x: 4, y: 20}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 27.5, y: 0, z: 102.5}
+    m_gridPosition: {x: 5, y: 20}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 32.5, y: 0, z: 102.5}
+    m_gridPosition: {x: 6, y: 20}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 37.5, y: 0, z: 102.5}
+    m_gridPosition: {x: 7, y: 20}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 42.5, y: 0, z: 102.5}
+    m_gridPosition: {x: 8, y: 20}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 47.5, y: 0, z: 102.5}
+    m_gridPosition: {x: 9, y: 20}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 52.5, y: 0, z: 102.5}
+    m_gridPosition: {x: 10, y: 20}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 57.5, y: 0, z: 102.5}
+    m_gridPosition: {x: 11, y: 20}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 62.5, y: 0, z: 102.5}
+    m_gridPosition: {x: 12, y: 20}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 67.5, y: 0, z: 102.5}
+    m_gridPosition: {x: 13, y: 20}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 72.5, y: 0, z: 102.5}
+    m_gridPosition: {x: 14, y: 20}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 77.5, y: 0, z: 102.5}
+    m_gridPosition: {x: 15, y: 20}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 82.5, y: 0, z: 102.5}
+    m_gridPosition: {x: 16, y: 20}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 87.5, y: 0, z: 102.5}
+    m_gridPosition: {x: 17, y: 20}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 92.5, y: 0, z: 102.5}
+    m_gridPosition: {x: 18, y: 20}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 97.5, y: 0, z: 102.5}
+    m_gridPosition: {x: 19, y: 20}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 102.5, y: 0, z: 102.5}
+    m_gridPosition: {x: 20, y: 20}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 107.5, y: 0, z: 102.5}
+    m_gridPosition: {x: 21, y: 20}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 112.5, y: 0, z: 102.5}
+    m_gridPosition: {x: 22, y: 20}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 117.5, y: 0, z: 102.5}
+    m_gridPosition: {x: 23, y: 20}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 122.5, y: 0, z: 102.5}
+    m_gridPosition: {x: 24, y: 20}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 127.5, y: 0, z: 102.5}
+    m_gridPosition: {x: 25, y: 20}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 132.5, y: 0, z: 102.5}
+    m_gridPosition: {x: 26, y: 20}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 137.5, y: 0, z: 102.5}
+    m_gridPosition: {x: 27, y: 20}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 142.5, y: 0, z: 102.5}
+    m_gridPosition: {x: 28, y: 20}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 147.5, y: 0, z: 102.5}
+    m_gridPosition: {x: 29, y: 20}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 152.5, y: 0, z: 102.5}
+    m_gridPosition: {x: 30, y: 20}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 157.5, y: 0, z: 102.5}
+    m_gridPosition: {x: 31, y: 20}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 2.5, y: 0, z: 107.5}
+    m_gridPosition: {x: 0, y: 21}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 7.5, y: 0, z: 107.5}
+    m_gridPosition: {x: 1, y: 21}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 12.5, y: 0, z: 107.5}
+    m_gridPosition: {x: 2, y: 21}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 17.5, y: 0, z: 107.5}
+    m_gridPosition: {x: 3, y: 21}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 22.5, y: 0, z: 107.5}
+    m_gridPosition: {x: 4, y: 21}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 27.5, y: 0, z: 107.5}
+    m_gridPosition: {x: 5, y: 21}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 32.5, y: 0, z: 107.5}
+    m_gridPosition: {x: 6, y: 21}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 37.5, y: 0, z: 107.5}
+    m_gridPosition: {x: 7, y: 21}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 42.5, y: 0, z: 107.5}
+    m_gridPosition: {x: 8, y: 21}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 47.5, y: 0, z: 107.5}
+    m_gridPosition: {x: 9, y: 21}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 52.5, y: 0, z: 107.5}
+    m_gridPosition: {x: 10, y: 21}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 57.5, y: 0, z: 107.5}
+    m_gridPosition: {x: 11, y: 21}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 62.5, y: 0, z: 107.5}
+    m_gridPosition: {x: 12, y: 21}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 67.5, y: 0, z: 107.5}
+    m_gridPosition: {x: 13, y: 21}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 72.5, y: 0, z: 107.5}
+    m_gridPosition: {x: 14, y: 21}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 77.5, y: 0, z: 107.5}
+    m_gridPosition: {x: 15, y: 21}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 82.5, y: 0, z: 107.5}
+    m_gridPosition: {x: 16, y: 21}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 87.5, y: 0, z: 107.5}
+    m_gridPosition: {x: 17, y: 21}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 92.5, y: 0, z: 107.5}
+    m_gridPosition: {x: 18, y: 21}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 97.5, y: 0, z: 107.5}
+    m_gridPosition: {x: 19, y: 21}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 102.5, y: 0, z: 107.5}
+    m_gridPosition: {x: 20, y: 21}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 107.5, y: 0, z: 107.5}
+    m_gridPosition: {x: 21, y: 21}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 112.5, y: 0, z: 107.5}
+    m_gridPosition: {x: 22, y: 21}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 117.5, y: 0, z: 107.5}
+    m_gridPosition: {x: 23, y: 21}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 122.5, y: 0, z: 107.5}
+    m_gridPosition: {x: 24, y: 21}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 127.5, y: 0, z: 107.5}
+    m_gridPosition: {x: 25, y: 21}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 132.5, y: 0, z: 107.5}
+    m_gridPosition: {x: 26, y: 21}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 137.5, y: 0, z: 107.5}
+    m_gridPosition: {x: 27, y: 21}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 142.5, y: 0, z: 107.5}
+    m_gridPosition: {x: 28, y: 21}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 147.5, y: 0, z: 107.5}
+    m_gridPosition: {x: 29, y: 21}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 152.5, y: 0, z: 107.5}
+    m_gridPosition: {x: 30, y: 21}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 157.5, y: 0, z: 107.5}
+    m_gridPosition: {x: 31, y: 21}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 2.5, y: 0, z: 112.5}
+    m_gridPosition: {x: 0, y: 22}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 7.5, y: 0, z: 112.5}
+    m_gridPosition: {x: 1, y: 22}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 12.5, y: 0, z: 112.5}
+    m_gridPosition: {x: 2, y: 22}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 17.5, y: 0, z: 112.5}
+    m_gridPosition: {x: 3, y: 22}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 22.5, y: 0, z: 112.5}
+    m_gridPosition: {x: 4, y: 22}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 27.5, y: 0, z: 112.5}
+    m_gridPosition: {x: 5, y: 22}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 32.5, y: 0, z: 112.5}
+    m_gridPosition: {x: 6, y: 22}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 37.5, y: 0, z: 112.5}
+    m_gridPosition: {x: 7, y: 22}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 42.5, y: 0, z: 112.5}
+    m_gridPosition: {x: 8, y: 22}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 47.5, y: 0, z: 112.5}
+    m_gridPosition: {x: 9, y: 22}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 52.5, y: 0, z: 112.5}
+    m_gridPosition: {x: 10, y: 22}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 57.5, y: 0, z: 112.5}
+    m_gridPosition: {x: 11, y: 22}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 62.5, y: 0, z: 112.5}
+    m_gridPosition: {x: 12, y: 22}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 67.5, y: 0, z: 112.5}
+    m_gridPosition: {x: 13, y: 22}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 72.5, y: 0, z: 112.5}
+    m_gridPosition: {x: 14, y: 22}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 77.5, y: 0, z: 112.5}
+    m_gridPosition: {x: 15, y: 22}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 82.5, y: 0, z: 112.5}
+    m_gridPosition: {x: 16, y: 22}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 87.5, y: 0, z: 112.5}
+    m_gridPosition: {x: 17, y: 22}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 92.5, y: 0, z: 112.5}
+    m_gridPosition: {x: 18, y: 22}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 97.5, y: 0, z: 112.5}
+    m_gridPosition: {x: 19, y: 22}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 102.5, y: 0, z: 112.5}
+    m_gridPosition: {x: 20, y: 22}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 107.5, y: 0, z: 112.5}
+    m_gridPosition: {x: 21, y: 22}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 112.5, y: 0, z: 112.5}
+    m_gridPosition: {x: 22, y: 22}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 117.5, y: 0, z: 112.5}
+    m_gridPosition: {x: 23, y: 22}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 122.5, y: 0, z: 112.5}
+    m_gridPosition: {x: 24, y: 22}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 127.5, y: 0, z: 112.5}
+    m_gridPosition: {x: 25, y: 22}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 132.5, y: 0, z: 112.5}
+    m_gridPosition: {x: 26, y: 22}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 137.5, y: 0, z: 112.5}
+    m_gridPosition: {x: 27, y: 22}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 142.5, y: 0, z: 112.5}
+    m_gridPosition: {x: 28, y: 22}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 147.5, y: 0, z: 112.5}
+    m_gridPosition: {x: 29, y: 22}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 152.5, y: 0, z: 112.5}
+    m_gridPosition: {x: 30, y: 22}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 157.5, y: 0, z: 112.5}
+    m_gridPosition: {x: 31, y: 22}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 2.5, y: 0, z: 117.5}
+    m_gridPosition: {x: 0, y: 23}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 7.5, y: 0, z: 117.5}
+    m_gridPosition: {x: 1, y: 23}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 12.5, y: 0, z: 117.5}
+    m_gridPosition: {x: 2, y: 23}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 17.5, y: 0, z: 117.5}
+    m_gridPosition: {x: 3, y: 23}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 22.5, y: 0, z: 117.5}
+    m_gridPosition: {x: 4, y: 23}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 27.5, y: 0, z: 117.5}
+    m_gridPosition: {x: 5, y: 23}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 32.5, y: 0, z: 117.5}
+    m_gridPosition: {x: 6, y: 23}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 37.5, y: 0, z: 117.5}
+    m_gridPosition: {x: 7, y: 23}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 42.5, y: 0, z: 117.5}
+    m_gridPosition: {x: 8, y: 23}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 47.5, y: 0, z: 117.5}
+    m_gridPosition: {x: 9, y: 23}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 52.5, y: 0, z: 117.5}
+    m_gridPosition: {x: 10, y: 23}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 57.5, y: 0, z: 117.5}
+    m_gridPosition: {x: 11, y: 23}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 62.5, y: 0, z: 117.5}
+    m_gridPosition: {x: 12, y: 23}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 67.5, y: 0, z: 117.5}
+    m_gridPosition: {x: 13, y: 23}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 72.5, y: 0, z: 117.5}
+    m_gridPosition: {x: 14, y: 23}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 77.5, y: 0, z: 117.5}
+    m_gridPosition: {x: 15, y: 23}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 82.5, y: 0, z: 117.5}
+    m_gridPosition: {x: 16, y: 23}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 87.5, y: 0, z: 117.5}
+    m_gridPosition: {x: 17, y: 23}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 92.5, y: 0, z: 117.5}
+    m_gridPosition: {x: 18, y: 23}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 97.5, y: 0, z: 117.5}
+    m_gridPosition: {x: 19, y: 23}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 102.5, y: 0, z: 117.5}
+    m_gridPosition: {x: 20, y: 23}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 107.5, y: 0, z: 117.5}
+    m_gridPosition: {x: 21, y: 23}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 112.5, y: 0, z: 117.5}
+    m_gridPosition: {x: 22, y: 23}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 117.5, y: 0, z: 117.5}
+    m_gridPosition: {x: 23, y: 23}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 122.5, y: 0, z: 117.5}
+    m_gridPosition: {x: 24, y: 23}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 127.5, y: 0, z: 117.5}
+    m_gridPosition: {x: 25, y: 23}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 132.5, y: 0, z: 117.5}
+    m_gridPosition: {x: 26, y: 23}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 137.5, y: 0, z: 117.5}
+    m_gridPosition: {x: 27, y: 23}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 142.5, y: 0, z: 117.5}
+    m_gridPosition: {x: 28, y: 23}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 147.5, y: 0, z: 117.5}
+    m_gridPosition: {x: 29, y: 23}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 152.5, y: 0, z: 117.5}
+    m_gridPosition: {x: 30, y: 23}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 157.5, y: 0, z: 117.5}
+    m_gridPosition: {x: 31, y: 23}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 2.5, y: 0, z: 122.5}
+    m_gridPosition: {x: 0, y: 24}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 7.5, y: 0, z: 122.5}
+    m_gridPosition: {x: 1, y: 24}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 12.5, y: 0, z: 122.5}
+    m_gridPosition: {x: 2, y: 24}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 17.5, y: 0, z: 122.5}
+    m_gridPosition: {x: 3, y: 24}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 22.5, y: 0, z: 122.5}
+    m_gridPosition: {x: 4, y: 24}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 27.5, y: 0, z: 122.5}
+    m_gridPosition: {x: 5, y: 24}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 32.5, y: 0, z: 122.5}
+    m_gridPosition: {x: 6, y: 24}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 37.5, y: 0, z: 122.5}
+    m_gridPosition: {x: 7, y: 24}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 42.5, y: 0, z: 122.5}
+    m_gridPosition: {x: 8, y: 24}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 47.5, y: 0, z: 122.5}
+    m_gridPosition: {x: 9, y: 24}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 52.5, y: 0, z: 122.5}
+    m_gridPosition: {x: 10, y: 24}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 57.5, y: 0, z: 122.5}
+    m_gridPosition: {x: 11, y: 24}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 62.5, y: 0, z: 122.5}
+    m_gridPosition: {x: 12, y: 24}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 67.5, y: 0, z: 122.5}
+    m_gridPosition: {x: 13, y: 24}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 72.5, y: 0, z: 122.5}
+    m_gridPosition: {x: 14, y: 24}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 77.5, y: 0, z: 122.5}
+    m_gridPosition: {x: 15, y: 24}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 82.5, y: 0, z: 122.5}
+    m_gridPosition: {x: 16, y: 24}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 87.5, y: 0, z: 122.5}
+    m_gridPosition: {x: 17, y: 24}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 92.5, y: 0, z: 122.5}
+    m_gridPosition: {x: 18, y: 24}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 97.5, y: 0, z: 122.5}
+    m_gridPosition: {x: 19, y: 24}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 102.5, y: 0, z: 122.5}
+    m_gridPosition: {x: 20, y: 24}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 107.5, y: 0, z: 122.5}
+    m_gridPosition: {x: 21, y: 24}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 112.5, y: 0, z: 122.5}
+    m_gridPosition: {x: 22, y: 24}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 117.5, y: 0, z: 122.5}
+    m_gridPosition: {x: 23, y: 24}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 122.5, y: 0, z: 122.5}
+    m_gridPosition: {x: 24, y: 24}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 127.5, y: 0, z: 122.5}
+    m_gridPosition: {x: 25, y: 24}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 132.5, y: 0, z: 122.5}
+    m_gridPosition: {x: 26, y: 24}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 137.5, y: 0, z: 122.5}
+    m_gridPosition: {x: 27, y: 24}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 142.5, y: 0, z: 122.5}
+    m_gridPosition: {x: 28, y: 24}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 147.5, y: 0, z: 122.5}
+    m_gridPosition: {x: 29, y: 24}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 152.5, y: 0, z: 122.5}
+    m_gridPosition: {x: 30, y: 24}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 157.5, y: 0, z: 122.5}
+    m_gridPosition: {x: 31, y: 24}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 2.5, y: 0, z: 127.5}
+    m_gridPosition: {x: 0, y: 25}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 7.5, y: 0, z: 127.5}
+    m_gridPosition: {x: 1, y: 25}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 12.5, y: 0, z: 127.5}
+    m_gridPosition: {x: 2, y: 25}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 17.5, y: 0, z: 127.5}
+    m_gridPosition: {x: 3, y: 25}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 22.5, y: 0, z: 127.5}
+    m_gridPosition: {x: 4, y: 25}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 27.5, y: 0, z: 127.5}
+    m_gridPosition: {x: 5, y: 25}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 32.5, y: 0, z: 127.5}
+    m_gridPosition: {x: 6, y: 25}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 37.5, y: 0, z: 127.5}
+    m_gridPosition: {x: 7, y: 25}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 42.5, y: 0, z: 127.5}
+    m_gridPosition: {x: 8, y: 25}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 47.5, y: 0, z: 127.5}
+    m_gridPosition: {x: 9, y: 25}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 52.5, y: 0, z: 127.5}
+    m_gridPosition: {x: 10, y: 25}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 57.5, y: 0, z: 127.5}
+    m_gridPosition: {x: 11, y: 25}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 62.5, y: 0, z: 127.5}
+    m_gridPosition: {x: 12, y: 25}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 67.5, y: 0, z: 127.5}
+    m_gridPosition: {x: 13, y: 25}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 72.5, y: 0, z: 127.5}
+    m_gridPosition: {x: 14, y: 25}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 77.5, y: 0, z: 127.5}
+    m_gridPosition: {x: 15, y: 25}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 82.5, y: 0, z: 127.5}
+    m_gridPosition: {x: 16, y: 25}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 87.5, y: 0, z: 127.5}
+    m_gridPosition: {x: 17, y: 25}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 92.5, y: 0, z: 127.5}
+    m_gridPosition: {x: 18, y: 25}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 97.5, y: 0, z: 127.5}
+    m_gridPosition: {x: 19, y: 25}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 102.5, y: 0, z: 127.5}
+    m_gridPosition: {x: 20, y: 25}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 107.5, y: 0, z: 127.5}
+    m_gridPosition: {x: 21, y: 25}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 112.5, y: 0, z: 127.5}
+    m_gridPosition: {x: 22, y: 25}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 117.5, y: 0, z: 127.5}
+    m_gridPosition: {x: 23, y: 25}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 122.5, y: 0, z: 127.5}
+    m_gridPosition: {x: 24, y: 25}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 127.5, y: 0, z: 127.5}
+    m_gridPosition: {x: 25, y: 25}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 132.5, y: 0, z: 127.5}
+    m_gridPosition: {x: 26, y: 25}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 137.5, y: 0, z: 127.5}
+    m_gridPosition: {x: 27, y: 25}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 142.5, y: 0, z: 127.5}
+    m_gridPosition: {x: 28, y: 25}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 147.5, y: 0, z: 127.5}
+    m_gridPosition: {x: 29, y: 25}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 152.5, y: 0, z: 127.5}
+    m_gridPosition: {x: 30, y: 25}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 157.5, y: 0, z: 127.5}
+    m_gridPosition: {x: 31, y: 25}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 2.5, y: 0, z: 132.5}
+    m_gridPosition: {x: 0, y: 26}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 7.5, y: 0, z: 132.5}
+    m_gridPosition: {x: 1, y: 26}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 12.5, y: 0, z: 132.5}
+    m_gridPosition: {x: 2, y: 26}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 17.5, y: 0, z: 132.5}
+    m_gridPosition: {x: 3, y: 26}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 22.5, y: 0, z: 132.5}
+    m_gridPosition: {x: 4, y: 26}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 27.5, y: 0, z: 132.5}
+    m_gridPosition: {x: 5, y: 26}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 32.5, y: 0, z: 132.5}
+    m_gridPosition: {x: 6, y: 26}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 37.5, y: 0, z: 132.5}
+    m_gridPosition: {x: 7, y: 26}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 42.5, y: 0, z: 132.5}
+    m_gridPosition: {x: 8, y: 26}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 47.5, y: 0, z: 132.5}
+    m_gridPosition: {x: 9, y: 26}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 52.5, y: 0, z: 132.5}
+    m_gridPosition: {x: 10, y: 26}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 57.5, y: 0, z: 132.5}
+    m_gridPosition: {x: 11, y: 26}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 62.5, y: 0, z: 132.5}
+    m_gridPosition: {x: 12, y: 26}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 67.5, y: 0, z: 132.5}
+    m_gridPosition: {x: 13, y: 26}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 72.5, y: 0, z: 132.5}
+    m_gridPosition: {x: 14, y: 26}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 77.5, y: 0, z: 132.5}
+    m_gridPosition: {x: 15, y: 26}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 82.5, y: 0, z: 132.5}
+    m_gridPosition: {x: 16, y: 26}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 87.5, y: 0, z: 132.5}
+    m_gridPosition: {x: 17, y: 26}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 92.5, y: 0, z: 132.5}
+    m_gridPosition: {x: 18, y: 26}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 97.5, y: 0, z: 132.5}
+    m_gridPosition: {x: 19, y: 26}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 102.5, y: 0, z: 132.5}
+    m_gridPosition: {x: 20, y: 26}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 107.5, y: 0, z: 132.5}
+    m_gridPosition: {x: 21, y: 26}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 112.5, y: 0, z: 132.5}
+    m_gridPosition: {x: 22, y: 26}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 117.5, y: 0, z: 132.5}
+    m_gridPosition: {x: 23, y: 26}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 122.5, y: 0, z: 132.5}
+    m_gridPosition: {x: 24, y: 26}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 127.5, y: 0, z: 132.5}
+    m_gridPosition: {x: 25, y: 26}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 132.5, y: 0, z: 132.5}
+    m_gridPosition: {x: 26, y: 26}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 137.5, y: 0, z: 132.5}
+    m_gridPosition: {x: 27, y: 26}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 142.5, y: 0, z: 132.5}
+    m_gridPosition: {x: 28, y: 26}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 147.5, y: 0, z: 132.5}
+    m_gridPosition: {x: 29, y: 26}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 152.5, y: 0, z: 132.5}
+    m_gridPosition: {x: 30, y: 26}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 157.5, y: 0, z: 132.5}
+    m_gridPosition: {x: 31, y: 26}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 2.5, y: 0, z: 137.5}
+    m_gridPosition: {x: 0, y: 27}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 7.5, y: 0, z: 137.5}
+    m_gridPosition: {x: 1, y: 27}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 12.5, y: 0, z: 137.5}
+    m_gridPosition: {x: 2, y: 27}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 17.5, y: 0, z: 137.5}
+    m_gridPosition: {x: 3, y: 27}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 22.5, y: 0, z: 137.5}
+    m_gridPosition: {x: 4, y: 27}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 27.5, y: 0, z: 137.5}
+    m_gridPosition: {x: 5, y: 27}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 32.5, y: 0, z: 137.5}
+    m_gridPosition: {x: 6, y: 27}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 37.5, y: 0, z: 137.5}
+    m_gridPosition: {x: 7, y: 27}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 42.5, y: 0, z: 137.5}
+    m_gridPosition: {x: 8, y: 27}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 47.5, y: 0, z: 137.5}
+    m_gridPosition: {x: 9, y: 27}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 52.5, y: 0, z: 137.5}
+    m_gridPosition: {x: 10, y: 27}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 57.5, y: 0, z: 137.5}
+    m_gridPosition: {x: 11, y: 27}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 62.5, y: 0, z: 137.5}
+    m_gridPosition: {x: 12, y: 27}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 67.5, y: 0, z: 137.5}
+    m_gridPosition: {x: 13, y: 27}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 72.5, y: 0, z: 137.5}
+    m_gridPosition: {x: 14, y: 27}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 77.5, y: 0, z: 137.5}
+    m_gridPosition: {x: 15, y: 27}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 82.5, y: 0, z: 137.5}
+    m_gridPosition: {x: 16, y: 27}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 87.5, y: 0, z: 137.5}
+    m_gridPosition: {x: 17, y: 27}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 92.5, y: 0, z: 137.5}
+    m_gridPosition: {x: 18, y: 27}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 97.5, y: 0, z: 137.5}
+    m_gridPosition: {x: 19, y: 27}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 102.5, y: 0, z: 137.5}
+    m_gridPosition: {x: 20, y: 27}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 107.5, y: 0, z: 137.5}
+    m_gridPosition: {x: 21, y: 27}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 112.5, y: 0, z: 137.5}
+    m_gridPosition: {x: 22, y: 27}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 117.5, y: 0, z: 137.5}
+    m_gridPosition: {x: 23, y: 27}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 122.5, y: 0, z: 137.5}
+    m_gridPosition: {x: 24, y: 27}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 127.5, y: 0, z: 137.5}
+    m_gridPosition: {x: 25, y: 27}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 132.5, y: 0, z: 137.5}
+    m_gridPosition: {x: 26, y: 27}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 137.5, y: 0, z: 137.5}
+    m_gridPosition: {x: 27, y: 27}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 142.5, y: 0, z: 137.5}
+    m_gridPosition: {x: 28, y: 27}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 147.5, y: 0, z: 137.5}
+    m_gridPosition: {x: 29, y: 27}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 152.5, y: 0, z: 137.5}
+    m_gridPosition: {x: 30, y: 27}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 157.5, y: 0, z: 137.5}
+    m_gridPosition: {x: 31, y: 27}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 2.5, y: 0, z: 142.5}
+    m_gridPosition: {x: 0, y: 28}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 7.5, y: 0, z: 142.5}
+    m_gridPosition: {x: 1, y: 28}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 12.5, y: 0, z: 142.5}
+    m_gridPosition: {x: 2, y: 28}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 17.5, y: 0, z: 142.5}
+    m_gridPosition: {x: 3, y: 28}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 22.5, y: 0, z: 142.5}
+    m_gridPosition: {x: 4, y: 28}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 27.5, y: 0, z: 142.5}
+    m_gridPosition: {x: 5, y: 28}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 32.5, y: 0, z: 142.5}
+    m_gridPosition: {x: 6, y: 28}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 37.5, y: 0, z: 142.5}
+    m_gridPosition: {x: 7, y: 28}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 42.5, y: 0, z: 142.5}
+    m_gridPosition: {x: 8, y: 28}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 47.5, y: 0, z: 142.5}
+    m_gridPosition: {x: 9, y: 28}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 52.5, y: 0, z: 142.5}
+    m_gridPosition: {x: 10, y: 28}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 57.5, y: 0, z: 142.5}
+    m_gridPosition: {x: 11, y: 28}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 62.5, y: 0, z: 142.5}
+    m_gridPosition: {x: 12, y: 28}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 67.5, y: 0, z: 142.5}
+    m_gridPosition: {x: 13, y: 28}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 72.5, y: 0, z: 142.5}
+    m_gridPosition: {x: 14, y: 28}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 77.5, y: 0, z: 142.5}
+    m_gridPosition: {x: 15, y: 28}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 82.5, y: 0, z: 142.5}
+    m_gridPosition: {x: 16, y: 28}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 87.5, y: 0, z: 142.5}
+    m_gridPosition: {x: 17, y: 28}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 92.5, y: 0, z: 142.5}
+    m_gridPosition: {x: 18, y: 28}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 97.5, y: 0, z: 142.5}
+    m_gridPosition: {x: 19, y: 28}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 102.5, y: 0, z: 142.5}
+    m_gridPosition: {x: 20, y: 28}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 107.5, y: 0, z: 142.5}
+    m_gridPosition: {x: 21, y: 28}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 112.5, y: 0, z: 142.5}
+    m_gridPosition: {x: 22, y: 28}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 117.5, y: 0, z: 142.5}
+    m_gridPosition: {x: 23, y: 28}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 122.5, y: 0, z: 142.5}
+    m_gridPosition: {x: 24, y: 28}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 127.5, y: 0, z: 142.5}
+    m_gridPosition: {x: 25, y: 28}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 132.5, y: 0, z: 142.5}
+    m_gridPosition: {x: 26, y: 28}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 137.5, y: 0, z: 142.5}
+    m_gridPosition: {x: 27, y: 28}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 142.5, y: 0, z: 142.5}
+    m_gridPosition: {x: 28, y: 28}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 147.5, y: 0, z: 142.5}
+    m_gridPosition: {x: 29, y: 28}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 152.5, y: 0, z: 142.5}
+    m_gridPosition: {x: 30, y: 28}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 157.5, y: 0, z: 142.5}
+    m_gridPosition: {x: 31, y: 28}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 2.5, y: 0, z: 147.5}
+    m_gridPosition: {x: 0, y: 29}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 7.5, y: 0, z: 147.5}
+    m_gridPosition: {x: 1, y: 29}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 12.5, y: 0, z: 147.5}
+    m_gridPosition: {x: 2, y: 29}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 17.5, y: 0, z: 147.5}
+    m_gridPosition: {x: 3, y: 29}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 22.5, y: 0, z: 147.5}
+    m_gridPosition: {x: 4, y: 29}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 27.5, y: 0, z: 147.5}
+    m_gridPosition: {x: 5, y: 29}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 32.5, y: 0, z: 147.5}
+    m_gridPosition: {x: 6, y: 29}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 37.5, y: 0, z: 147.5}
+    m_gridPosition: {x: 7, y: 29}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 42.5, y: 0, z: 147.5}
+    m_gridPosition: {x: 8, y: 29}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 47.5, y: 0, z: 147.5}
+    m_gridPosition: {x: 9, y: 29}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 52.5, y: 0, z: 147.5}
+    m_gridPosition: {x: 10, y: 29}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 57.5, y: 0, z: 147.5}
+    m_gridPosition: {x: 11, y: 29}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 62.5, y: 0, z: 147.5}
+    m_gridPosition: {x: 12, y: 29}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 67.5, y: 0, z: 147.5}
+    m_gridPosition: {x: 13, y: 29}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 72.5, y: 0, z: 147.5}
+    m_gridPosition: {x: 14, y: 29}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 77.5, y: 0, z: 147.5}
+    m_gridPosition: {x: 15, y: 29}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 82.5, y: 0, z: 147.5}
+    m_gridPosition: {x: 16, y: 29}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 87.5, y: 0, z: 147.5}
+    m_gridPosition: {x: 17, y: 29}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 92.5, y: 0, z: 147.5}
+    m_gridPosition: {x: 18, y: 29}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 97.5, y: 0, z: 147.5}
+    m_gridPosition: {x: 19, y: 29}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 102.5, y: 0, z: 147.5}
+    m_gridPosition: {x: 20, y: 29}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 107.5, y: 0, z: 147.5}
+    m_gridPosition: {x: 21, y: 29}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 112.5, y: 0, z: 147.5}
+    m_gridPosition: {x: 22, y: 29}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 117.5, y: 0, z: 147.5}
+    m_gridPosition: {x: 23, y: 29}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 122.5, y: 0, z: 147.5}
+    m_gridPosition: {x: 24, y: 29}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 127.5, y: 0, z: 147.5}
+    m_gridPosition: {x: 25, y: 29}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 132.5, y: 0, z: 147.5}
+    m_gridPosition: {x: 26, y: 29}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 137.5, y: 0, z: 147.5}
+    m_gridPosition: {x: 27, y: 29}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 142.5, y: 0, z: 147.5}
+    m_gridPosition: {x: 28, y: 29}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 147.5, y: 0, z: 147.5}
+    m_gridPosition: {x: 29, y: 29}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 152.5, y: 0, z: 147.5}
+    m_gridPosition: {x: 30, y: 29}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 157.5, y: 0, z: 147.5}
+    m_gridPosition: {x: 31, y: 29}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 2.5, y: 0, z: 152.5}
+    m_gridPosition: {x: 0, y: 30}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 7.5, y: 0, z: 152.5}
+    m_gridPosition: {x: 1, y: 30}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 12.5, y: 0, z: 152.5}
+    m_gridPosition: {x: 2, y: 30}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 17.5, y: 0, z: 152.5}
+    m_gridPosition: {x: 3, y: 30}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 22.5, y: 0, z: 152.5}
+    m_gridPosition: {x: 4, y: 30}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 27.5, y: 0, z: 152.5}
+    m_gridPosition: {x: 5, y: 30}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 32.5, y: 0, z: 152.5}
+    m_gridPosition: {x: 6, y: 30}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 37.5, y: 0, z: 152.5}
+    m_gridPosition: {x: 7, y: 30}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 42.5, y: 0, z: 152.5}
+    m_gridPosition: {x: 8, y: 30}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 47.5, y: 0, z: 152.5}
+    m_gridPosition: {x: 9, y: 30}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 52.5, y: 0, z: 152.5}
+    m_gridPosition: {x: 10, y: 30}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 57.5, y: 0, z: 152.5}
+    m_gridPosition: {x: 11, y: 30}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 62.5, y: 0, z: 152.5}
+    m_gridPosition: {x: 12, y: 30}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 67.5, y: 0, z: 152.5}
+    m_gridPosition: {x: 13, y: 30}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 72.5, y: 0, z: 152.5}
+    m_gridPosition: {x: 14, y: 30}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 77.5, y: 0, z: 152.5}
+    m_gridPosition: {x: 15, y: 30}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 82.5, y: 0, z: 152.5}
+    m_gridPosition: {x: 16, y: 30}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 87.5, y: 0, z: 152.5}
+    m_gridPosition: {x: 17, y: 30}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 92.5, y: 0, z: 152.5}
+    m_gridPosition: {x: 18, y: 30}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 97.5, y: 0, z: 152.5}
+    m_gridPosition: {x: 19, y: 30}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 102.5, y: 0, z: 152.5}
+    m_gridPosition: {x: 20, y: 30}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 107.5, y: 0, z: 152.5}
+    m_gridPosition: {x: 21, y: 30}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 112.5, y: 0, z: 152.5}
+    m_gridPosition: {x: 22, y: 30}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 117.5, y: 0, z: 152.5}
+    m_gridPosition: {x: 23, y: 30}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 122.5, y: 0, z: 152.5}
+    m_gridPosition: {x: 24, y: 30}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 127.5, y: 0, z: 152.5}
+    m_gridPosition: {x: 25, y: 30}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 132.5, y: 0, z: 152.5}
+    m_gridPosition: {x: 26, y: 30}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 137.5, y: 0, z: 152.5}
+    m_gridPosition: {x: 27, y: 30}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 142.5, y: 0, z: 152.5}
+    m_gridPosition: {x: 28, y: 30}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 147.5, y: 0, z: 152.5}
+    m_gridPosition: {x: 29, y: 30}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 152.5, y: 0, z: 152.5}
+    m_gridPosition: {x: 30, y: 30}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 157.5, y: 0, z: 152.5}
+    m_gridPosition: {x: 31, y: 30}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 2.5, y: 0, z: 157.5}
+    m_gridPosition: {x: 0, y: 31}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 7.5, y: 0, z: 157.5}
+    m_gridPosition: {x: 1, y: 31}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 12.5, y: 0, z: 157.5}
+    m_gridPosition: {x: 2, y: 31}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 17.5, y: 0, z: 157.5}
+    m_gridPosition: {x: 3, y: 31}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 22.5, y: 0, z: 157.5}
+    m_gridPosition: {x: 4, y: 31}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 27.5, y: 0, z: 157.5}
+    m_gridPosition: {x: 5, y: 31}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 32.5, y: 0, z: 157.5}
+    m_gridPosition: {x: 6, y: 31}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 37.5, y: 0, z: 157.5}
+    m_gridPosition: {x: 7, y: 31}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 42.5, y: 0, z: 157.5}
+    m_gridPosition: {x: 8, y: 31}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 47.5, y: 0, z: 157.5}
+    m_gridPosition: {x: 9, y: 31}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 52.5, y: 0, z: 157.5}
+    m_gridPosition: {x: 10, y: 31}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 57.5, y: 0, z: 157.5}
+    m_gridPosition: {x: 11, y: 31}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 62.5, y: 0, z: 157.5}
+    m_gridPosition: {x: 12, y: 31}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 67.5, y: 0, z: 157.5}
+    m_gridPosition: {x: 13, y: 31}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 72.5, y: 0, z: 157.5}
+    m_gridPosition: {x: 14, y: 31}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 77.5, y: 0, z: 157.5}
+    m_gridPosition: {x: 15, y: 31}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 82.5, y: 0, z: 157.5}
+    m_gridPosition: {x: 16, y: 31}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 87.5, y: 0, z: 157.5}
+    m_gridPosition: {x: 17, y: 31}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 92.5, y: 0, z: 157.5}
+    m_gridPosition: {x: 18, y: 31}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 97.5, y: 0, z: 157.5}
+    m_gridPosition: {x: 19, y: 31}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 102.5, y: 0, z: 157.5}
+    m_gridPosition: {x: 20, y: 31}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 107.5, y: 0, z: 157.5}
+    m_gridPosition: {x: 21, y: 31}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 112.5, y: 0, z: 157.5}
+    m_gridPosition: {x: 22, y: 31}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 117.5, y: 0, z: 157.5}
+    m_gridPosition: {x: 23, y: 31}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 122.5, y: 0, z: 157.5}
+    m_gridPosition: {x: 24, y: 31}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 127.5, y: 0, z: 157.5}
+    m_gridPosition: {x: 25, y: 31}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 132.5, y: 0, z: 157.5}
+    m_gridPosition: {x: 26, y: 31}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 137.5, y: 0, z: 157.5}
+    m_gridPosition: {x: 27, y: 31}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 142.5, y: 0, z: 157.5}
+    m_gridPosition: {x: 28, y: 31}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 147.5, y: 0, z: 157.5}
+    m_gridPosition: {x: 29, y: 31}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 152.5, y: 0, z: 157.5}
+    m_gridPosition: {x: 30, y: 31}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  - m_tileType: 0
+    m_worldPosition: {x: 157.5, y: 0, z: 157.5}
+    m_gridPosition: {x: 31, y: 31}
+    m_wetUntilTimer: 0
+    m_controllers: []
+  m_size: {x: 5, y: 5}
+  m_offset: {x: 2.5, y: 2.5}
+  newFire: 
+--- !u!4 &338059519 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -3317044567963308465, guid: fc1fc9ac2a0fbee49a729a3993ba32c2, type: 3}
+  m_PrefabInstance: {fileID: 2109749868}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &397780671
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1564002656446781744, guid: 158cabe54786b86408177e12cd696985, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564002656446781744, guid: 158cabe54786b86408177e12cd696985, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564002656446781744, guid: 158cabe54786b86408177e12cd696985, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564002656446781744, guid: 158cabe54786b86408177e12cd696985, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564002656446781744, guid: 158cabe54786b86408177e12cd696985, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564002656446781744, guid: 158cabe54786b86408177e12cd696985, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564002656446781744, guid: 158cabe54786b86408177e12cd696985, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564002656446781744, guid: 158cabe54786b86408177e12cd696985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564002656446781744, guid: 158cabe54786b86408177e12cd696985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564002656446781744, guid: 158cabe54786b86408177e12cd696985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716406127730912493, guid: 158cabe54786b86408177e12cd696985, type: 3}
+      propertyPath: m_Name
+      value: SoundManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 158cabe54786b86408177e12cd696985, type: 3}
+--- !u!1 &694218874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 694218877}
+  - component: {fileID: 694218876}
+  - component: {fileID: 694218875}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &694218875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 694218874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 0}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_DeselectOnBackgroundClick: 1
+  m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
+  m_ScrollDeltaPerTick: 6
+--- !u!114 &694218876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 694218874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &694218877
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 694218874}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &744938536
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 744938540}
+  - component: {fileID: 744938539}
+  - component: {fileID: 744938538}
+  - component: {fileID: 744938537}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &744938537
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744938536}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &744938538
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744938536}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &744938539
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744938536}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &744938540
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744938536}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 6.1972, y: 6.1972, z: 6.1972}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1204533082
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1204533084}
+  - component: {fileID: 1204533083}
+  m_Layer: 0
+  m_Name: ScriptHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1204533083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204533082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5daa7294d3bc80249a06259796e04449, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1204533084
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204533082}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 44.916035, y: 16.168583, z: -19.3109}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1268549575
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1268549578}
+  - component: {fileID: 1268549577}
+  - component: {fileID: 1268549576}
+  - component: {fileID: 1268549579}
+  - component: {fileID: 1268549580}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1268549576
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268549575}
+  m_Enabled: 1
+--- !u!20 &1268549577
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268549575}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 54.9
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1268549578
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268549575}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.19996424, y: -0.373611, z: 0.08282755, w: 0.9019805}
+  m_LocalPosition: {x: 19.5, y: 14.23, z: -20.01}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 1442853736}
+  m_Father: {fileID: 1952166275}
+  m_LocalEulerAnglesHint: {x: 25, y: 45, z: 0}
+--- !u!114 &1268549579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268549575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+--- !u!114 &1268549580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268549575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a7d20837088049a750012c754ce5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 2109749869}
+  smoothTime: 0
+--- !u!1 &1335727075
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1335727078}
+  - component: {fileID: 1335727077}
+  - component: {fileID: 1335727076}
+  m_Layer: 0
+  m_Name: Terrain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!154 &1335727076
+TerrainCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335727075}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_TerrainData: {fileID: 15600000, guid: 17480e6b5e8bdcf41a88de4c6073d93f, type: 2}
+  m_EnableTreeColliders: 1
+--- !u!218 &1335727077
+Terrain:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335727075}
+  m_Enabled: 0
+  serializedVersion: 6
+  m_TerrainData: {fileID: 15600000, guid: 17480e6b5e8bdcf41a88de4c6073d93f, type: 2}
+  m_TreeDistance: 5000
+  m_TreeBillboardDistance: 50
+  m_TreeCrossFadeLength: 5
+  m_TreeMaximumFullLODCount: 50
+  m_DetailObjectDistance: 80
+  m_DetailObjectDensity: 1
+  m_HeightmapPixelError: 5
+  m_SplatMapDistance: 1000
+  m_HeightmapMinimumLODSimplification: 0
+  m_HeightmapMaximumLOD: 0
+  m_ShadowCastingMode: 2
+  m_DrawHeightmap: 1
+  m_DrawInstanced: 0
+  m_DrawTreesAndFoliage: 1
+  m_StaticShadowCaster: 0
+  m_IgnoreQualitySettings: 0
+  m_ReflectionProbeUsage: 1
+  m_MaterialTemplate: {fileID: 2100000, guid: 594ea882c5a793440b60ff72d896021e, type: 2}
+  m_BakeLightProbesForTrees: 1
+  m_PreserveTreePrototypeLayers: 0
+  m_DeringLightProbesForTrees: 1
+  m_ReceiveGI: 1
+  m_ScaleInLightmap: 0.0256
+  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
+  m_GroupingID: 0
+  m_RenderingLayerMask: 1
+  m_AllowAutoConnect: 1
+  m_EnableHeightmapRayTracing: 1
+  m_EnableTreesAndDetailsRayTracing: 0
+  m_TreeMotionVectorModeOverride: 3
+--- !u!4 &1335727078
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335727075}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1410857974
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1410857976}
+  - component: {fileID: 1410857975}
+  - component: {fileID: 1410857977}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1410857975
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410857974}
+  m_Enabled: 1
+  serializedVersion: 11
+  m_Type: 1
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
+--- !u!4 &1410857976
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410857974}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &1410857977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410857974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+--- !u!1 &1442853735
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1442853736}
+  - component: {fileID: 1442853739}
+  - component: {fileID: 1442853738}
+  - component: {fileID: 1442853737}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1442853736
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442853735}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1558474729}
+  m_Father: {fileID: 1268549578}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &1442853737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442853735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1442853738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442853735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1442853739
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442853735}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!1 &1452747867
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1452747871}
+  - component: {fileID: 1452747870}
+  - component: {fileID: 1452747869}
+  - component: {fileID: 1452747868}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1452747868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452747867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+--- !u!81 &1452747869
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452747867}
+  m_Enabled: 1
+--- !u!20 &1452747870
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452747867}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1452747871
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452747867}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 53.762424, y: 15.573373, z: -31.155243}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1558474728
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1558474729}
+  - component: {fileID: 1558474731}
+  - component: {fileID: 1558474730}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1558474729
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558474728}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.00016784672}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1442853736}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0.00018310547, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1558474730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558474728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 5b383f2a4d8c7934292df02996c257be, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1558474731
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558474728}
+  m_CullTransparentMesh: 1
+--- !u!1 &1612058364
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1612058365}
+  m_Layer: 0
+  m_Name: SpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1612058365
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612058364}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 24, y: 15, z: 24}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1952166274
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1952166275}
+  m_Layer: 0
+  m_Name: CamHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1952166275
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952166274}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.08682413, y: -0.0075961305, z: 0.08682413, w: 0.99240386}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1268549578}
+  m_Father: {fileID: 2109749869}
+  m_LocalEulerAnglesHint: {x: 10, y: 0, z: 10}
+--- !u!1 &2072696809 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: fc1fc9ac2a0fbee49a729a3993ba32c2, type: 3}
+  m_PrefabInstance: {fileID: 2109749868}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2109749868
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: fc1fc9ac2a0fbee49a729a3993ba32c2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fc1fc9ac2a0fbee49a729a3993ba32c2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fc1fc9ac2a0fbee49a729a3993ba32c2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 13.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fc1fc9ac2a0fbee49a729a3993ba32c2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710784
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fc1fc9ac2a0fbee49a729a3993ba32c2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fc1fc9ac2a0fbee49a729a3993ba32c2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.70710576
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fc1fc9ac2a0fbee49a729a3993ba32c2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fc1fc9ac2a0fbee49a729a3993ba32c2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fc1fc9ac2a0fbee49a729a3993ba32c2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fc1fc9ac2a0fbee49a729a3993ba32c2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fc1fc9ac2a0fbee49a729a3993ba32c2, type: 3}
+      propertyPath: m_Name
+      value: Helicopter 2 low poly fin
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fc1fc9ac2a0fbee49a729a3993ba32c2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: fc1fc9ac2a0fbee49a729a3993ba32c2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1952166275}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fc1fc9ac2a0fbee49a729a3993ba32c2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2109749870}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fc1fc9ac2a0fbee49a729a3993ba32c2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2109749872}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fc1fc9ac2a0fbee49a729a3993ba32c2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2109749871}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fc1fc9ac2a0fbee49a729a3993ba32c2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2109749874}
+  m_SourcePrefab: {fileID: 100100000, guid: fc1fc9ac2a0fbee49a729a3993ba32c2, type: 3}
+--- !u!4 &2109749869 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fc1fc9ac2a0fbee49a729a3993ba32c2, type: 3}
+  m_PrefabInstance: {fileID: 2109749868}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2109749870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072696809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0316208a98f52a24ea88cc0db658f755, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_rotorTransform: {fileID: 338059519}
+  m_tailRotorTransform: {fileID: 0}
+  m_minRotorRotationSpeed: 500
+  m_maxRotorRotationSpeed: 1000
+  m_rotorTipTrailController: {fileID: 0}
+  m_rotorPitchController: {fileID: 0}
+  m_linearVelocityMagnitude: 0
+  m_linearVelocityMinPitchThreshold: 10
+  m_spawnPoint: {fileID: 1612058365}
+  m_waterPickupSpeed: 0
+  m_waterDropSpeed: 0
+  m_waterReach: 0
+  m_fallTimer: 0
+  m_gridManager: {fileID: 0}
+  m_playerValues: {fileID: 0}
+  m_rigidBody: {fileID: 0}
+  m_helicopterOBJ: {fileID: 0}
+  m_camera: {fileID: 0}
+  m_moveSpeed: 20
+  m_sprintSpeed: 35
+  m_moveSharpness: 10
+  m_sprintSharpness: 0.5
+  m_rotateSharpness: 7.5
+  m_lookInputLerpSpeed: 5
+  m_moveInput: {x: 0, y: 0}
+  m_lookInput: {x: 0, y: 0}
+  m_positionHistoryUpdateDelay: 0
+  m_maxHistoryEntries: 0
+  m_crashedHelicopterPrefab: {fileID: 0}
+  m_meshrenders: []
+  m_bucket: {fileID: 0}
+  m_rotationSpeed: 0
+  m_pivotObject: {fileID: 0}
+  m_outOfBoundsTimer: 0
+--- !u!65 &2109749871
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072696809}
+  m_Material: {fileID: 13400000, guid: 6f02d3aa10d341341a5f4b9a9c8ef266, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.82, y: 1.66, z: 5.35}
+  m_Center: {x: 0, y: 1.5, z: -0.75}
+--- !u!54 &2109749872
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072696809}
+  serializedVersion: 4
+  m_Mass: 360
+  m_Drag: 1
+  m_AngularDrag: 3
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 80
+  m_CollisionDetection: 0
+--- !u!114 &2109749874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072696809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a2a0a2075d45e449a6aac7ff551819c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 1410857976}
+  - {fileID: 1335727078}
+  - {fileID: 2109749868}
+  - {fileID: 744938540}
+  - {fileID: 159299222}
+  - {fileID: 1612058365}
+  - {fileID: 694218877}
+  - {fileID: 1452747871}
+  - {fileID: 1204533084}
+  - {fileID: 397780671}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de0c34df146ad7f49854eff612f19602, type: 3}
+  m_Name: IntroFinish
+  m_EditorClassIdentifier: 
+  m_localization:
+  - m_key: 0
+    m_lines:
+    - Great job, pilot! Now let's keep going, let's save the Reserve!
+  - m_key: 1
+    m_lines:
+    - "Bra jobbat pilot! Nu kan vi forts\xE4tta, l\xE5t oss r\xE4dda reservatet!"
+  m_audio:
+  - {fileID: 8300000, guid: 0cbc7916551987a4e8b926dae1770bae, type: 3}

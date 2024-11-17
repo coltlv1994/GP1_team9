@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de0c34df146ad7f49854eff612f19602, type: 3}
+  m_Name: Text_Prompt_Story
+  m_EditorClassIdentifier: 
+  m_localization:
+  - m_key: 2
+    m_lines:
+    - 'Here it is, the Great Tree Reserve! '
+    - 'See this king of trees? It is the oldest tree on the planet! '
+    - 'The whole reserve was founded around it. '
+    - 'Can you imagine? 3,000 birds have their nests in its crown. '
+    - 'This tree must be protected at all costs!  '
+    - 'If the Great Tree catches fire, the whole reserve will be in trouble. '
+    - 'Are you ready to be a hero? '
+    - 'Press "Yes"! '
+  - m_key: 1
+    m_lines:
+    - "H\xE4r \xE4r den, Urtr\xE4ds reservatet!! "
+    - "Ser du detta tr\xE4dens konung? Det \xE4r det \xE4ldsta tr\xE4det p\xE5 planeten! "
+    - 'Hela reservatet grundades runt det. '
+    - "Kan du f\xF6rest\xE4lla dig? 3 000 f\xE5glar har sina bon i dess krona. "
+    - "Det h\xE4r tr\xE4det m\xE5ste skyddas till varje pris! "
+    - "Om det Ur\xE5ldriga Tr\xE4det b\xF6rjar brinna, \xE4r hela reservatet i fara. "
+    - "\xC4r du redo att bli en hj\xE4lte? "
+    - "Tryck p\xE5 \"Ja\"! "

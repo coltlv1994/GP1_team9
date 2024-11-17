@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de0c34df146ad7f49854eff612f19602, type: 3}
+  m_Name: Text_Prompt_Tutorial
+  m_EditorClassIdentifier: 
+  m_localization:
+  - m_key: 2
+    m_lines:
+    - 'Hi! My name is Joe Smokey! And I am the chief ranger here, at the Great Tree
+      Nature Reserve!  '
+    - 'And I am the chief ranger here, at the Great Tree Nature Reserve!  '
+    - We really need help! This summer has been incredibly hot. And now Reserve is
+      facing a serious fire danger. If you don't act now, it could be really devastating.
+    - 'Helicopter will just keep the altitude automatically, but you still need to
+      avoid obstacles along the way! '
+    - Use the JOYSTICK to steer around them.
+    - 'See the fire over there? Try put it out! '
+    - Use the lakes to gather water. Just hover over the water source and press A
+      to collect.
+    - 'Then to drop water on the flames, press A again.  '
+    - Great job, pilot! Now let's keep going, let's save the Reserve!
+    - Now let's keep going, let's save the Reserve!
+  - m_key: 1
+    m_lines:
+    - "Hej! Mitt namn \xE4r Ragnar R\xF6k! Och jag \xE4r chefsvakt h\xE4r p\xE5 Urtr\xE4dets
+      naturreservat! "
+    - "Och jag \xE4r chefsvakt h\xE4r p\xE5 Urtr\xE4dets naturreservat! "
+    - "Vi beh\xF6ver verkligen hj\xE4lp! Den h\xE4r sommaren har varit v\xE4ldigt
+      varm. Nu \xE4r reservatet i brandfara. "
+    - "Helikoptern h\xE5ller h\xF6jden automatiskt, men du m\xE5ste fortfarande undvika
+      hinder! "
+    - "Anv\xE4nd JOYSTICKEN "
+    - "Ser du elden? F\xF6rs\xF6k att sl\xE4cka den! "
+    - "Anv\xE4nd vattnet i sj\xF6arna. "
+    - "F\xF6r att samla vatten, tryck p\xE5 A. "
+    - "F\xF6r att sl\xE4ppa vattnet, m\xE5ste du flyga \xF6ver vatten och trycka
+      ner A igen. "
+    - 'Bra jobbat! '
+  - m_key: 1
+    m_lines: []

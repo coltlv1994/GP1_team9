@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de0c34df146ad7f49854eff612f19602, type: 3}
+  m_Name: Text_Prompt_Village 2
+  m_EditorClassIdentifier: 
+  m_localization:
+  - m_key: 2
+    m_lines:
+    - 'No worries; all citizens have been evacuated from here! '
+    - 'Everyone from this village is in a safe place! Release the water! '
+  - m_key: 1
+    m_lines:
+    - "Ingen fara; alla inv\xE5nare har evakuerats h\xE4rifr\xE5n! "
+    - "Alla fr\xE5n denna by \xE4r p\xE5 en s\xE4ker plats!Sl\xE4pp vattnet! "
