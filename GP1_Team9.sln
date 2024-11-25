@@ -3,15 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{A0F837B6-DAEE-A420-B8C9-462E1CC46E9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adobe.Substance", "Adobe.Substance.csproj", "{79CE8F16-87A6-EF0E-4F53-3ACFEED951D2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adobe.Substance.Runtime", "Adobe.Substance.Runtime.csproj", "{EE0A98E3-6CB7-28D6-E2E8-1224C68D6203}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adobe.SubstanceEditor", "Adobe.SubstanceEditor.csproj", "{C5FA461F-C6BE-351B-0B24-9DAD984E5487}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{80FF4766-DE8F-81EB-E22C-1185E8F57412}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adobe.Substance.Connector.Unity", "Adobe.Substance.Connector.Unity.csproj", "{766211E0-3FEB-7055-68D8-35F4391B05D4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colorblind", "Colorblind.csproj", "{09AE03CE-18B6-6EF6-736A-20C1874AA618}"
 EndProject
@@ -25,26 +17,10 @@ Global
 		{A0F837B6-DAEE-A420-B8C9-462E1CC46E9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0F837B6-DAEE-A420-B8C9-462E1CC46E9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0F837B6-DAEE-A420-B8C9-462E1CC46E9D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{79CE8F16-87A6-EF0E-4F53-3ACFEED951D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{79CE8F16-87A6-EF0E-4F53-3ACFEED951D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{79CE8F16-87A6-EF0E-4F53-3ACFEED951D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{79CE8F16-87A6-EF0E-4F53-3ACFEED951D2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EE0A98E3-6CB7-28D6-E2E8-1224C68D6203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EE0A98E3-6CB7-28D6-E2E8-1224C68D6203}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EE0A98E3-6CB7-28D6-E2E8-1224C68D6203}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EE0A98E3-6CB7-28D6-E2E8-1224C68D6203}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C5FA461F-C6BE-351B-0B24-9DAD984E5487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C5FA461F-C6BE-351B-0B24-9DAD984E5487}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C5FA461F-C6BE-351B-0B24-9DAD984E5487}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C5FA461F-C6BE-351B-0B24-9DAD984E5487}.Release|Any CPU.Build.0 = Release|Any CPU
 		{80FF4766-DE8F-81EB-E22C-1185E8F57412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{80FF4766-DE8F-81EB-E22C-1185E8F57412}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80FF4766-DE8F-81EB-E22C-1185E8F57412}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80FF4766-DE8F-81EB-E22C-1185E8F57412}.Release|Any CPU.Build.0 = Release|Any CPU
-		{766211E0-3FEB-7055-68D8-35F4391B05D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{766211E0-3FEB-7055-68D8-35F4391B05D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{766211E0-3FEB-7055-68D8-35F4391B05D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{766211E0-3FEB-7055-68D8-35F4391B05D4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{09AE03CE-18B6-6EF6-736A-20C1874AA618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{09AE03CE-18B6-6EF6-736A-20C1874AA618}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09AE03CE-18B6-6EF6-736A-20C1874AA618}.Release|Any CPU.ActiveCfg = Release|Any CPU
